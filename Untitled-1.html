@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Streaming Platform</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #1a1a1a;
+            color: white;
+            font-family: 'Inter', sans-serif;
+        }
+
+        /* Navigation Bar Styles */
+        .navbar {
+            background-color: #333;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        .navbar .logo {
+            color: #e50914;
+            font-size: 1.5rem;
+            margin-right: 20px;
+        }
+
+        .navbar a {
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        .search-container {
+            flex-grow: 1;
+            text-align: right;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+        }
+
+        .search-input {
+            padding: 10px;
+            width: 300px;
+            font-size: 1rem;
+            border: none;
+            border-radius: 5px;
+            margin-right: 10px;
+        }
+
+        .logout-btn {
+            background-color: #e50914;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background-color 0.3s;
+        }
+
+        .logout-btn:hover {
+            background-color: #b20710;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 2rem auto;
+            padding: 0 20px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: #e50914;
+        }
+
+        .video-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 20px;
+        }
+
+        .thumbnail {
+            width: 200px;
+            height: 300px;
+            overflow: hidden;
+            position: relative;
+            margin: 20px;
+            display: inline-block;
+        }
+
+        .thumbnail img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: auto;
+            height: 100%;
+            transform: translate(-50%, -50%);
+        }
+
+        .video-card {
+            background: #2a2a2a;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .video-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .video-info {
+            padding: 1rem;
+        }
+
+        .video-title {
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+            height: 50px;
+            overflow: hidden;
+        }
+
+        .watch-button {
+            display: block;
+            width: 100%;
+            padding: 0.8rem;
+            background: #e50914; color: white;
+            border : none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            text-align: center;
+            text-decoration: none;
+            transition: background 0.3s ease;
+        }
+
+        .watch-button:hover {
+            background: #b20710;
+        }
+
+        /* Synopsis Styles */
+        .synopsis {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 10px;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            height: 100%;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+            text-align: center;
+        }
+
+        .video-card:hover .synopsis {
+            opacity: 1;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        @media (max-width: 768px) {
+            .video-grid {
+                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            }
+        }
+
+        .logo {
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <div class="logo">SuperFlix</div>
+        <div>
+            <a href="#" onclick="displayVideos()">All</a>
+            <a href="#" onclick="showCategory('movie')">Movies</a>
+            <a href="#" onclick="showCategory('tv')">TV</a>
+        </div>
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search for videos..." oninput="searchVideos()">
+            <button class="logout-btn" onclick="logout()">Log Out</button>
+        </div>
+    </div>
+
+    <div class="container">
+        <h1>Welcome to SuperFlix</h1>
+        <div class="video-grid" id="video-gallery"></div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 SuperFlix. All rights reserved.</p>
+    </footer>
+
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+        import { getAuth, signOut } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js";
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyAOpH4643BnyWTk51an8Mm0p-I5q_hoYKE",
+            authDomain: "superflix-f74d4.firebaseapp.com",
+            projectId: "superflix-f74d4",
+            storageBucket: "superflix-f74d4.firebasestorage.app",
+            messagingSenderId: "1061472401725",
+            appId: "1:1061472401725:web:bdaf82013f92f907a7ed54"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+
+        // Function to log out
+        window.logout = function() {
+            signOut(auth).then(() => {
+                window.location.href = 'Untitled-1s.html'; // Redirect to login page
+            }).catch((error) => {
+                console.error('Error logging out:', error);
+            });
+        }
+
+        // Sample video data with synopsis
+        const videos = [
+            {
+                title: "The Amazing Adventure",
+                thumbnail: "https://via.placeholder.com/300x180",
+                url: "https://example.com/video1",
+                category: "movie",
+                synopsis: "Join the hero on an amazing adventure filled with excitement and challenges."
+            },
+            {
+                title: "Space Warriors",
+                thumbnail: "https://via.placeholder.com/300x180",
+                url: "https://example.com/video2",
+                category: "movie",
+                synopsis: "A thrilling journey through the cosmos as warriors battle for survival."
+            },
+            {
+                title: "Family Guy",
+                thumbnail: "https://m.media-amazon.com/images/M/MV5BNTZlMGQ1YjEtMzVlNC00ZmMxLTk0MzgtZjdkYTU1NmUxNTQ0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
+                url: "https://example.com/video3",
+                category: "tv",
+                synopsis: "Follow the hilarious misadventures of the Griffin family."
+            },
+            {
+                title: "Cyber Revolution",
+                thumbnail: "https://via.placeholder.com/300x180",
+                url: "https://example.com/video4",
+                category: "tv",
+                synopsis: "A gripping tale of technology and rebellion in a futuristic world where humanity fights against oppressive systems."
+            }
+        ];
+
+        // Function to display videos
+        window.displayVideos = function(category = null) {
+            const videoGallery = document.getElementById('video-gallery');
+            videoGallery.innerHTML = '';
+
+            videos.forEach(video => {
+                if (!category || video.category === category) {
+                    const videoCard = document.createElement('div');
+                    videoCard.className = 'video-card';
+                    videoCard.setAttribute('data-category', video.category);
+                    videoCard.innerHTML = `
+                        <div class="thumbnail">
+                            <img src="${video.thumbnail}" alt="${video.title} Thumbnail">
+                            <div class="synopsis">${video.synopsis}</div>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">${video.title}</h3>
+                            <a href="${video.url}" class="watch-button" target="_blank">Watch Now</a>
+                        </div>
+                    `;
+                    videoGallery.appendChild(videoCard);
+                }
+            });
+        }
+
+        window.showCategory = function(category) {
+            displayVideos(category);
+        }
+
+        window.searchVideos = function() {
+            const searchInput = document.querySelector('.search-input').value.toLowerCase();
+            const videoGallery = document.getElementById('video-gallery');
+            videoGallery.innerHTML = '';
+
+            videos.forEach(video => {
+                if (video.title.toLowerCase().includes(searchInput)) {
+                    const videoCard = document.createElement('div');
+                    videoCard.className = 'video-card';
+                    videoCard.setAttribute('data-category', video.category);
+                    videoCard.innerHTML = `
+                        <div class="thumbnail">
+                            <img src="${video.thumbnail}" alt="${video.title} Thumbnail">
+                            <div class="synopsis">${video.synopsis}</div>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">${video.title}</h3>
+                            <a href="${video.url}" class="watch-button" target="_blank">Watch Now</a>
+                        </div>
+                    `;
+                    videoGallery.appendChild(videoCard);
+                }
+            });
+        }
+
+        // Initial display of all videos
+        displayVideos();
+    </script>
+</body>
+</html>
