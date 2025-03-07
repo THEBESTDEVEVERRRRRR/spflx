@@ -217,6 +217,7 @@
 
     <div class="container">
         <h1>Welcome to SuperFlix</h1>
+        <div id="welcome-message"></div>
         <div class="video-grid" id="video-gallery"></div>
     </div>
 
@@ -225,60 +226,154 @@
     </footer>
 
     <script type="module">
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
-        import { getAuth, signOut } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js";
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+    import { getAuth, onAuthStateChanged, signOut } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js";
 
-        const firebaseConfig = {
-            apiKey: "AIzaSyAOpH4643BnyWTk51an8Mm0p-I5q_hoYKE",
-            authDomain: "superflix-f74d4.firebaseapp.com",
-            projectId: "superflix-f74d4",
-            storageBucket: "superflix-f74d4.firebasestorage.app",
-            messagingSenderId: "1061472401725",
-            appId: "1:1061472401725:web:bdaf82013f92f907a7ed54"
-        };
+    const firebaseConfig = {
+        apiKey: "AIzaSyAOpH4643BnyWTk51an8Mm0p-I5q_hoYKE",
+        authDomain: "superflix-f74d4.firebaseapp.com",
+        projectId: "superflix-f74d4",
+        storageBucket: "superflix-f74d4.firebasestorage.app",
+        messagingSenderId: "1061472401725",
+        appId: "1:1061472401725:web:bdaf82013f92f907a7ed54"
+    };
 
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const auth = getAuth(app);
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
 
-        // Function to log out
-        window.logout = function() {
-            signOut(auth).then(() => {
-                window.location.href = 'Untitled-1s.html'; // Redirect to login page
-            }).catch((error) => {
-                console.error('Error logging out:', error);
-            });
+    // Function to display welcome message
+    onAuthStateChanged(auth, (user) => {
+        const welcomeMessageDiv = document.getElementById('welcome-message');
+        if (user) {
+            const userEmail = user.email;
+            welcomeMessageDiv.innerHTML = `Welcome, ${userEmail}!`;
+        } else {
+            welcomeMessageDiv.innerHTML = 'Welcome, Guest!';
         }
+    });
 
+    // Function to log out
+    window.logout = function() {
+        signOut(auth).then(() => {
+            window.location.href = 'index.html'; // Redirect to login page
+        }).catch((error) => {
+            console.error('Error logging out:', error);
+        });
+    }
         // Sample video data with synopsis
         const videos = [
             {
-                title: "The Amazing Adventure",
-                thumbnail: "https://via.placeholder.com/300x180",
-                url: "https://example.com/video1",
+                title: "1917",
+                thumbnail: "https://resizing.flixster.com/hu80cOh-9NU_eottnuVgtP_nW54=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2ZlMTgyZjNiLTIxMDQtNGE4Mi05ZjAxLTlhNjk3YTdkMDYxNi53ZWJw",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EYJ-6lIMpdRDjW6oKJPDP98BvRwQHz7x0S3MWtBWWwi85Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JEngL2",
                 category: "movie",
-                synopsis: "Join the hero on an amazing adventure filled with excitement and challenges."
+                synopsis: "During World War I, two young British soldiers race against time to deliver a critical message across enemy territory and prevent 1,600 comrades from walking into a deadly ambush, captured in a gripping, real-time cinematic style."
             },
             {
-                title: "Space Warriors",
-                thumbnail: "https://via.placeholder.com/300x180",
-                url: "https://example.com/video2",
+                title: "2001: A Space Odyssey",
+                thumbnail: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p6252_p_v8_ai.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EQoEVZEp8FtAuR7vKuBXoqwBhJvswKcG8J1BJBjuGgHrUw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gRNaXQ",
                 category: "movie",
-                synopsis: "A thrilling journey through the cosmos as warriors battle for survival."
+                synopsis: "A cryptic monolith influences human evolution, propelling humanity from prehistoric dawn to a perilous space mission with a sentient AI, exploring existential questions about progress, technology, and cosmic destiny through surreal, philosophical visuals."
             },
             {
-                title: "Family Guy",
-                thumbnail: "https://m.media-amazon.com/images/M/MV5BNTZlMGQ1YjEtMzVlNC00ZmMxLTk0MzgtZjdkYTU1NmUxNTQ0XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg",
-                url: "https://example.com/video3",
-                category: "tv",
-                synopsis: "Follow the hilarious misadventures of the Griffin family."
+                title: "6 Underground",
+                thumbnail: "https://resizing.flixster.com/iKqV-123qe8ZWyyZGAMYcpxVi4s=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2Y0ZTlhNjlkLWFhMTctNDQ5Yy05MDZmLTQ3NzdlZWUzOGRkNy53ZWJw",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/ETplZV4Exs9Krb9crOZ-rYoBjThj16Gk8OjNW72f3QrGSg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=17oQMQ",
+                category: "movie",
+                synopsis: "Six individuals from all around the globe, each the very best at what they do, have been chosen not only for their skill, but for a unique desire to delete their pasts to change the future."
             },
             {
-                title: "Cyber Revolution",
-                thumbnail: "https://via.placeholder.com/300x180",
-                url: "https://example.com/video4",
-                category: "tv",
-                synopsis: "A gripping tale of technology and rebellion in a futuristic world where humanity fights against oppressive systems."
+                title: "Hitman: Agent 47",
+                thumbnail: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10854431_p_v8_ba.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EUERbSfdb_BHrsqJkOTY63EBpe8PLlFE3bHMJWIjAzljZQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TbGm3Y",
+                category: "movie",
+                synopsis: "An assassin teams up with a woman to help her find her father and uncover the mysteries of her ancestry."
+            },
+            {
+                title: "Bad Boys",
+                thumbnail: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16624_p_v8_ad.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EQS2e7gCMn9HjKyjTuxsE34BSH1AY-WlYB7vPWRhE_rcag?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=P9Bho0",
+                category: "movie",
+                synopsis: "Two Miami policemen, they have 72 hours to reclaim a consignment of drugs stolen from under their station's nose. To complicate matters, in order to get the assistance of the sole witness to a murder, they have to pretend to be each other."
+            },
+            {
+                title: "Bad Boys II",
+                thumbnail: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p31357_p_v10_bc.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EcsXq7rdLTdIkxZ0YOFUQvIBsqpc8eBjJ_ojpxiUy9lXVg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8WXuqX",
+                category: "movie",
+                synopsis: "Two Miami narcotics detectives confront chaos as they investigate a dangerous drug cartel, blending explosive action, irreverent humor, and their signature reckless partnership in a high-stakes mission to save the city."
+            },
+            {
+                title: "Bad Boys For Life",
+                thumbnail: "https://resizing.flixster.com/4YRa5Vut6ZDw-m8VmGmAx0-ttcU=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzNiMmJmZWMxLWNiMjktNDE0OC05NmRiLTNmZjY4ZTY5OTY0Yi53ZWJw",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/ERMGJRxd5FhDuDx1CnfB53MBWcxVmcn7tzxm9wtKHf2wVQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4XmAcJ",
+                category: "movie",
+                synopsis: "Marcus and Mike are forced to confront new threats, career changes, and midlife crises as they join the newly created elite team AMMO of the Miami police department to take down the ruthless Armando Armas, the vicious leader of a Miami drug cartel."
+            },
+            {
+                title: "Bad Boys: Ride or Die",
+                thumbnail: "https://resizing.flixster.com/pVvhS2mjaqcVoTTe8mLXNnI7OeM=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzVjYWNkYjA2LTdjOTktNDgzMy05ODAyLThlYTliMjZlOTJlYS5qcGc=",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EbWopIQtMeZPh0Xnaef1Q_EBT-sJoJqMpU32lMrgmpgQSg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rUc36V",
+                category: "movie",
+                synopsis: "After their late former Captain is framed, Lowrey and Burnett try to clear his name, only to end up on the run themselves."
+            },
+            {
+                title: "Die Hard",
+                thumbnail: "https://resizing.flixster.com/4uMRStWZiVgShCGo_ywlOGfK9jA=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzdjMzI5NWU3LTEyNTUtNDRlNC04ZWYxLThlMzZiNDE3YTMxOC5wbmc=",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EdhBHymCUBxEsIbw1EiKupoBmz0TOnGR86SiZFS8-bpisw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8NFwrm",
+                category: "movie",
+                synopsis: "An off-duty New York cop single-handedly battles a group of terrorists who seize a Los Angeles skyscraper during a Christmas party, using wit and grit to save hostages—including his wife—in a tense, action-packed showdown."
+            },
+            {
+                title: "Die Hard 2",
+                thumbnail: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p12600_p_v13_ap.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EeiavSj4jLZMvqWnp6YFm5EBNvDtl4d1UbapLa42dzIkyQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EKx6wp",
+                category: "movie",
+                synopsis: "Off-duty cop John McClane battles rogue military operatives who seize control of an airport’s communications during a snowstorm, forcing circling planes—including one carrying his wife—to run out of fuel, leading to a desperate, explosive showdown to avert disaster."
+            },
+            {
+                title: "Die Hard With A Vengeance",
+                thumbnail: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p16784_p_v10_ao.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/Efmksxz4QmhCgayur6IHqvkBhc0lFFg1Gmrb8qOg27PH3w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jzIyD1",
+                category: "movie",
+                synopsis: "Targeted by a vengeful terrorist orchestrating a city-wide bombing spree and twisted riddles, John McClane teams up with a Harlem shopkeeper to race across New York, unraveling a plot of revenge and a massive heist in a high-stakes game of survival."
+            },
+            {
+                title: "Live Free or Die Hard",
+                thumbnail: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p166035_p_v8_aa.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EVJsA83vgd9ArGFZx7_l5lsBZloHaIC-Z5pbKE4vU3m30Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PzfivG",
+                category: "movie",
+                synopsis: "John McClane is back and badder than ever, and this time he calls on the services of a young hacker in his bid to stop a ring of Internet terrorists intent on taking control of America's computer infrastructure."
+            },
+            {
+                title: "A Good Day to Die Hard",
+                thumbnail: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9358336_p_v8_aw.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EZRzSPdBVeVLiY_THDbYw3IBBq4Vvzhd86S0CZ90uL2yng?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sFPvDa",
+                category: "movie",
+                synopsis: "John McClane travels to Moscow to reconnect with his estranged son, a CIA operative, only to uncover a conspiracy involving a nuclear weapons heist and corrupt officials, plunging them into explosive chaos and a tumultuous father-son partnership amid relentless, over-the-top action."
+            },
+            {
+                title: "Batman Begins",
+                thumbnail: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p35903_p_v8_ay.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EXfmrgqrAUJAioSKCfxos4MBeE1rZOf4NqVROlMJZwqOWQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YiadDy",
+                category: "movie",
+                synopsis: "Haunted by his parents’ murder, Bruce Wayne trains with a shadowy league of assassins before rejecting their brutal justice, embracing his fears to become Gotham’s vigilante protector, Batman, and confront a city-corrupting plot orchestrated by the Scarecrow and his former mentor."
+            },
+            {
+                title: "The Dark Knight",
+                thumbnail: "https://resizing.flixster.com/Wg25mLoPWxjcxXzNyaSF4VGgGE4=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2ZiNjZiNWFkLWVhNzEtNDRhMC1iNGIwLTFmY2FkNzllNTJlMi5qcGc=",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/ETOkOnuAIJlEtSSENpVMwwkBl7zmAbNlmSPQdpSwrlk2VQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LSsp91",
+                category: "movie",
+                synopsis: "As Batman allies with Commissioner Gordon and DA Harvey Dent to dismantle Gotham’s criminal underworld, the anarchic Joker unleashes chaos, testing their morals and plunging the city into a psychological battle where heroism and villainy blur in a relentless, gritty showdown."
+            },
+            {
+                title: "The Dark Knight Rises",
+                thumbnail: "https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_FMjpg_UX1000_.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EVO3nrg6bUJCnsjMf2ufm2cB7pc9Kv5C9P8S_HrYXYN1Qw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tSvbnk",
+                category: "movie",
+                synopsis: "Eight years after retiring Batman, a broken Bruce Wayne resurfaces to face Bane, a masked revolutionary plotting to destroy Gotham, forcing him to overcome physical and emotional scars, rally allies, and sacrifice everything in a climactic battle for the city’s survival and soul."
             }
         ];
 
