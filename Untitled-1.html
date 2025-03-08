@@ -11,13 +11,13 @@
             margin: 0;
             padding: 0;
         }
-
+    
         body {
             background-color: #1a1a1a;
             color: white;
             font-family: 'Inter', sans-serif;
         }
-
+    
         /* Navigation Bar Styles */
         .navbar {
             background-color: #333;
@@ -26,25 +26,25 @@
             align-items: center;
             padding: 10px 20px;
         }
-
+    
         .navbar .logo {
             color: #e50914;
             font-size: 1.5rem;
             margin-right: 20px;
         }
-
+    
         .navbar a {
             color: white;
             text-align: center;
             padding: 14px 16px;
             text-decoration: none;
         }
-
+    
         .navbar a:hover {
             background-color: #ddd;
             color: black;
         }
-
+    
         .search-container {
             flex-grow: 1;
             text-align: right;
@@ -52,7 +52,7 @@
             justify-content: flex-end;
             align-items: center;
         }
-
+    
         .search-input {
             padding: 10px;
             width: 300px;
@@ -61,7 +61,7 @@
             border-radius: 5px;
             margin-right: 10px;
         }
-
+    
         .logout-btn {
             background-color: #e50914;
             color: white;
@@ -72,30 +72,30 @@
             font-size: 1rem;
             transition: background-color 0.3s;
         }
-
+    
         .logout-btn:hover {
             background-color: #b20710;
         }
-
+    
         .container {
             max-width: 1200px;
             margin: 2rem auto;
             padding: 0 20px;
         }
-
+    
         h1 {
             text-align: center;
             margin-bottom: 2rem;
             color: #e50914;
         }
-
+    
         .video-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 2rem;
             padding: 20px;
         }
-
+    
         .thumbnail {
             width: 200px;
             height: 300px;
@@ -104,7 +104,7 @@
             margin: 20px;
             display: inline-block;
         }
-
+    
         .thumbnail img {
             position: absolute;
             top: 50%;
@@ -113,7 +113,7 @@
             height: 100%;
             transform: translate(-50%, -50%);
         }
-
+    
         .video-card {
             background: #2a2a2a;
             border-radius: 10px;
@@ -122,28 +122,29 @@
             cursor: pointer;
             position: relative;
         }
-
+    
         .video-card:hover {
             transform: translateY(-5px);
         }
-
+    
         .video-info {
             padding: 1rem;
         }
-
+    
         .video-title {
             font-size: 1.1rem;
             margin-bottom: 0.5rem;
             height: 50px;
             overflow: hidden;
         }
-
+    
         .watch-button {
             display: block;
             width: 100%;
             padding: 0.8rem;
-            background: #e50914; color: white;
-            border : none;
+            background: #e50914; 
+            color: white;
+            border: none;
             border-radius: 5px;
             cursor: pointer;
             font-size: 1rem;
@@ -151,11 +152,11 @@
             text-decoration: none;
             transition: background 0.3s ease;
         }
-
+    
         .watch-button:hover {
             background: #b20710;
         }
-
+    
         /* Synopsis Styles */
         .synopsis {
             position: absolute;
@@ -173,30 +174,44 @@
             justify-content: center;
             text-align: center;
         }
-
+    
         .video-card:hover .synopsis {
             opacity: 1;
         }
-
+    
         /* Footer Styles */
         footer {
             background-color: #333;
             color: white;
             text-align: center;
-            padding: 20px 0;
+            padding : 20px 0;
             position: relative;
             bottom: 0;
             width: 100%;
         }
-
+    
         @media (max-width: 768px) {
-            .video-grid {
-                grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            .navbar {
+                flex-direction: column; /* Stack items vertically on small screens */
+                align-items: flex-start; /* Align items to the start */
             }
-        }
-
-        .logo {
-            font-weight: bold;
+    
+            .search-container {
+                width: 100%; /* Make search container full width */
+                justify-content: space-between; /* Space out items */
+            }
+    
+            .search-input {
+                width: 70%; /* Adjust input width */
+            }
+    
+            .logout-btn {
+                width: 25%; /* Adjust button width */
+            }
+    
+            .video-grid {
+                grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Adjust for smaller screens */
+            }
         }
     </style>
 </head>
@@ -219,6 +234,7 @@
         <h1>Welcome to SuperFlix</h1>
         <div id="welcome-message"></div>
         <div class="video-grid" id="video-gallery"></div>
+        <div id="no-results-message" style="display: none; text-align: center; color: white;">No videos found matching your search criteria. Maybe Check Our <a href="https://2fczv5-my.sharepoint.com/:f:/g/personal/johannal_2fczv5_onmicrosoft_com/EgWcfMOo349CoeiLWC4SrjUB4Hi4l2Zoi5g1nCzHVgX4Zw?e=7mhM5f"target="_blank">Unsorted List</a></div>
     </div>
 
     <footer>
@@ -374,6 +390,167 @@
                 url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EVO3nrg6bUJCnsjMf2ufm2cB7pc9Kv5C9P8S_HrYXYN1Qw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tSvbnk",
                 category: "movie",
                 synopsis: "Eight years after retiring Batman, a broken Bruce Wayne resurfaces to face Bane, a masked revolutionary plotting to destroy Gotham, forcing him to overcome physical and emotional scars, rally allies, and sacrifice everything in a climactic battle for the city’s survival and soul."
+            },
+            {
+                title: "The Fast and The Furious",
+                thumbnail: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p27779_p_v8_aw.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/Ea3doYqhCX9OiLvQJt2_-FoBXuQQZlx5-SJIrX_O01xK4Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Iu0pxa",
+                category: "movie",
+                synopsis: "Dominic Toretto is a Los Angeles street racer suspected of masterminding a series of big-rig hijackings. When undercover cop Brian O'Conner infiltrates Toretto's iconoclastic crew, he falls for Toretto's sister and must choose a side: the gang or the LAPD."
+            },
+            {
+                title: "2 Fast 2 Furious",
+                thumbnail: "https://img.yts.mx/assets/images/movies/2_Fast_2_Furious_2003/large-cover.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EcvoXm6Opn1ArO5H0jH8z8MBPG8Fn117uMQrVUukXcDfew",
+                category: "movie",
+                synopsis: "Former cop Brian O'Conner teams up with his childhood friend Roman Pearce to take down a drug lord in Miami while evading the law in this high-octane sequel."
+            },
+            {
+                title: "The Fast and The Furious: Tokyo Drift",
+                thumbnail: "https://img.yts.mx/assets/images/movies/The_Fast_and_the_Furious_Tokyo_Drift_2006/large-cover.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/Ecm1iuLh0RxFuZzRN0eVk_kBRvFFleRfCufMkdlMgTKESA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fU4jTB",
+                category: "movie",
+                synopsis: "In order to avoid a jail sentence, Sean Boswell heads to Tokyo to live with his military father. In a low-rent section of the city, Shaun gets caught up in the underground world of drift racing"
+            },
+            {
+                title: "Fast & Furious",
+                thumbnail: "https://img.yts.mx/assets/images/movies/Fast_and_Furious_2009/large-cover.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/ET7zA4UhcZNHhovCG2mq0ZgBL05_cBEWubO0U3tmxtZHiA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=aPDnyU",
+                category: "movie",
+                synopsis: "Dom Toretto and Brian O'Conner reunite to take down a heroin importer while seeking revenge for the death of someone close to them."
+            },
+            {
+                title: "Fast Five",
+                thumbnail: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p8338313_p_v10_bb.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/Eck0JDQ51ChCvdEO6qSvqSUBKjq6DX96qkwJx8x-DItXLA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8sx8ou",
+                category: "movie",
+                synopsis: "Dom Toretto and Brian O'Conner assemble a team of skilled criminals to pull off a daring heist in Rio de Janeiro while being pursued by a relentless federal agent."
+            },
+            {
+                title: "Fast & Furious 6",
+                thumbnail: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9573130_p_v7_ab.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EZuiZqhMHuNJsM9xPXaWo00B-8yUrwfZjd9Cp_NNIR0_zw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xM1ATn",
+                category: "movie",
+                synopsis: "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries; Dominic unexpectedly gets sidetracked with facing his presumed deceased girlfriend, Letty."
+            },
+            {
+                title: "Furious 7",
+                thumbnail: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10679969_p_v8_at.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EVcDvLn1RSRMsO6BzG5A4nUBpS84naXIR-zmIl1Yixk0Tw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=z3jCaV",
+                category: "movie",
+                synopsis: "Dom Toretto and his crew must face a deadly assassin seeking revenge while also protecting a powerful hacking device in this high-stakes, action-packed installment."
+            },
+            {
+                title: "The Fate of The Furious",
+                thumbnail: "https://img.yts.mx/assets/images/movies/the_fate_of_the_furious_2017/large-cover.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EUmjbOAJwLBPgCr2fCovHoIBtm3_ZCNOSrfa0udtf2H5nA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=RrIai8",
+                category: "movie",
+                synopsis: "When a mysterious woman seduces Dom into the world of crime and a betrayal of those closest to him, the crew face trials that will test them as never before."
+            },
+            {
+                title: "Fast & Furious Presents: Hobbs & Shaw",
+                thumbnail: "https://img.yts.mx/assets/images/movies/fast_furious_presents_hobbs_shaw_2019/large-cover.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EcsorLGHHb9FpQxVFbvhkF4BeZ1R96qZaiOMrQexWiRvdw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XycT02",
+                category: "movie",
+                synopsis: "Ever since US Diplomatic Security Service Agent Hobbs and lawless outcast Shaw first faced off, they just have traded smack talk and body blows. But when cyber-genetically enhanced anarchist Brixton's ruthless actions threaten the future of humanity, they join forces to defeat him."
+            },
+            {
+                title: "F9",
+                thumbnail: "https://resizing.flixster.com/RYaXF6wKOa0WI2I2lY2DGkvWOgk=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzdhYTRiMjQ1LWMyMDctNGM1MC1iYzY3LWIzM2VhNmU0MTlkOC5qcGc=",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EVyFdPhUmqlHmJJHg8RSxowBiumN_gim8tNhUAkE2WzYRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ydksi6",
+                category: "movie",
+                synopsis: "Dominic Toretto and his crew battle the most skilled assassin and high-performance driver they've ever encountered: his forsaken brother."
+            },
+            {
+                title: "Fast X",
+                thumbnail: "https://resizing.flixster.com/8ZFc4VKwZN8NGV3ZqhCIFCHekxM=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzLzJlNDAyYWUzLWEwZTUtNDVlNy04MDliLTRmZWIzNDMzMzJmYS5qcGc=",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/ETZm7wbd0DJFlkBwzxYZIm8B8nAUu21UmpWxAQB_C-cREg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5li0nw",
+                category: "movie",
+                synopsis: "Dom Toretto and his crew face a formidable new adversary who threatens their family and peace, leading to high-octane action and daring heists across the globe as they race against time to protect what matters most"
+            },
+            {
+                title: "Inglourious Basterds",
+                thumbnail: "https://img.yts.mx/assets/images/movies/Inglourious_Basterds_2009/large-cover.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/ES6RkfL9PzVPrghuLxoG908BsaRpYQ4xABXIbAghZjkcxw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=AimaXE",
+                category: "movie",
+                synopsis: "A group of Jewish-American soldiers, led by the ruthless Lieutenant Aldo Raine, they embark on a mission to assassinate Nazi leaders in occupied France during World War II, intertwining their story with that of a young Jewish cinema owner seeking revenge against the Nazis."
+            },
+            {
+                title: "The Bourne Identity",
+                thumbnail: "https://img.yts.mx/assets/images/movies/The_Bourne_Identity_2002/large-cover.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EZ49wDsDcutNuQp5OpAYp54BpRKigEYBV6MF4vm1jLNfpA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0ZAtPT",
+                category: "movie",
+                synopsis: "A former CIA assassin with amnesia races across Europe to uncover his true identity while evading the agency that created him, gradually piecing together his lethal past as he fights for survival."
+            },
+            {
+                title: "The Bourne Supremacy",
+                thumbnail: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p34579_p_v10_ac.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EYL2W2ier7BLqgD4PzXA0UUBKtmV6sxgwuj6nixcfVj2jQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FNSkjK",
+                category: "movie",
+                synopsis: "After being framed for a botched CIA operation, amnesiac assassin Jason Bourne resurfaces to clear his name, pursuing those who murdered his girlfriend while uncovering more dark secrets about his past as part of the shadowy Treadstone program."
+            },
+            {
+                title: "The Bourne Ultimatum",
+                thumbnail: "https://img.yts.mx/assets/images/movies/The_Bourne_Ultimatum_2007/large-cover.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/Eeqkz-PiV_RKvIAy8Y-vm-8B6FFpFTC5yg-YuS5RjYN5Xw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eabsbc",
+                category: "movie",
+                synopsis: "Former assassin Jason Bourne embarks on a final quest for answers about his true identity, hunting down the architects of the secret CIA program that created him while evading a new generation of deadly agents, ultimately confronting the origin of his transformation into a programmed killer."
+            },
+            {
+                title: "The Bourne Legacy",
+                thumbnail: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p9047834_p_v13_ap.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EbvL4uUz0z1OtuhTjT22pOkBYg8gANPWhOZCrI83Z6NyJQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jQfy03",
+                category: "movie",
+                synopsis: "New CIA operative Aaron Cross experiences life-or-death stakes that have been triggered by the previous actions of Jason Bourne."
+            },
+            {
+                title: "Jason Bourne",
+                thumbnail: "https://img.yts.mx/assets/images/movies/jason_bourne_2016/large-cover.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/Ee4GmXqo3itMlyuEgiVzokoBZfmGOxILEQr5wG68HBPxAw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=X3cx6g",
+                category: "movie",
+                synopsis: "The most dangerous former operative of the CIA is drawn out of hiding to uncover hidden truths about his past."
+            },
+            {
+                title: "Kingsman: The Secret Service",
+                thumbnail: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p10672282_p_v13_aa.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EegsoCD4VS1Bh8lqWvgyuAsBckJI8vg9GGDZinSj6lhYJQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LpywVc",
+                category: "movie",
+                synopsis: "The story of a super-secret spy organization that recruits an unrefined but promising street kid into the agency's ultra-competitive training program just as a global threat emerges from a twisted tech genius."
+            },
+            {
+                title: "Kingsman: The Golden Circle",
+                thumbnail: "https://img.yts.mx/assets/images/movies/kingsman_the_golden_circle_2017/large-cover.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EWokPevYxmpBndj2ro6FN3MBPJU6JuOu1xDubXru0tvO5A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Lx6EBd",
+                category: "movie",
+                synopsis: "When an attack on the Kingsman headquarters takes place and a new villain rises, Eggsy and Merlin are forced to work together with the American agency known as the Statesman to save the world."
+            },
+            {
+                title: "The King's Man",
+                thumbnail: "https://img.yts.mx/assets/images/movies/the_kings_man_2021/large-cover.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/ETJ0pUB-RlVIqIKVwVF-Gh4Bbi4Y0T_j-Vqk_OjY0yJPeQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mbOI3C",
+                category: "movie",
+                synopsis: "As a collection of history's worst tyrants and criminal masterminds gather to plot a war to wipe out millions, one man must race against time to stop them."
+            },
+            {
+                title: "Family Guy",
+                thumbnail: "https://imgs.search.brave.com/2NpOH8J-VkZ5gKMG_rj4xnsVTVhmIAT0QNBBeAeadvE/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk5UWmxNR1Ex/WWpFdE16VmxOQzAw/Wm1NeExUazBNemd0/Wmpka1lUVTFObVV4/TlRRMFhrRXlYa0Zx/Y0djQC5qcGc",
+                url: "https://2fczv5-my.sharepoint.com/:f:/g/personal/johannal_2fczv5_onmicrosoft_com/EgBIbRrzQexOpMGA6WnH1kcB2s7cr2kwOUKoGHj6ouU_yQ?e=J16SP8",
+                category: "tv",
+                synopsis: "Family Guy follows the crude, outrageous misadventures of the Griffin family, led by dim-witted patriarch Peter, as they navigate everyday life with bizarre humor and frequent pop-culture references."
+            },
+            {
+                title: "South Park",
+                thumbnail: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p184338_b_v13_at.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:f:/g/personal/johannal_2fczv5_onmicrosoft_com/Eu_rSj3k7F1BvBhgg8QkON8B8kIveO_55lv_3UaFLvBvlg?e=NFPVxb",
+                category: "tv",
+                synopsis: "South Park follows four foul-mouthed fourth-graders in a dysfunctional Colorado town as they encounter outrageous situations that satirize current events, celebrities, and social taboos with crude animation and irreverent humor."
+            },
+            {
+                title: "The Cleveland Show",
+                thumbnail: "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p186605_b_v8_ac.jpg",
+                url: "https://2fczv5-my.sharepoint.com/:f:/g/personal/johannal_2fczv5_onmicrosoft_com/Ev4j86LmvAZBsPrbzP0kEyEBiGutDdMtb2MgZbfm_Xm8GQ?e=eYFB7z",
+                category: "tv",
+                synopsis: "The Cleveland Show follows the adventures of Cleveland Brown and his blended family after he moves from Quahog to his hometown in Virginia, navigating life's challenges with his eccentric neighbors and stepchildren."
             }
         ];
 
@@ -407,29 +584,39 @@
         }
 
         window.searchVideos = function() {
-            const searchInput = document.querySelector('.search-input').value.toLowerCase();
-            const videoGallery = document.getElementById('video-gallery');
-            videoGallery.innerHTML = '';
+    const searchInput = document.querySelector('.search-input').value.toLowerCase();
+    const videoGallery = document.getElementById('video-gallery');
+    const noResultsMessage = document.getElementById('no-results-message');
+    videoGallery.innerHTML = '';
+    noResultsMessage.style.display = 'none'; // Hide the no results message initially
 
-            videos.forEach(video => {
-                if (video.title.toLowerCase().includes(searchInput)) {
-                    const videoCard = document.createElement('div');
-                    videoCard.className = 'video-card';
-                    videoCard.setAttribute('data-category', video.category);
-                    videoCard.innerHTML = `
-                        <div class="thumbnail">
-                            <img src="${video.thumbnail}" alt="${video.title} Thumbnail">
-                            <div class="synopsis">${video.synopsis}</div>
-                        </div>
-                        <div class="video-info">
-                            <h3 class="video-title">${video.title}</h3>
-                            <a href="${video.url}" class="watch-button" target="_blank">Watch Now</a>
-                        </div>
-                    `;
-                    videoGallery.appendChild(videoCard);
-                }
-            });
+    let foundVideo = false; // Flag to check if any video is found
+
+    videos.forEach(video => {
+        if (video.title.toLowerCase().includes(searchInput)) {
+            foundVideo = true; // Set flag to true if a video is found
+            const videoCard = document.createElement('div');
+            videoCard.className = 'video-card';
+            videoCard.setAttribute('data-category', video.category);
+            videoCard.innerHTML = `
+                <div class="thumbnail">
+                    <img src="${video.thumbnail}" alt="${video.title} Thumbnail">
+                    <div class="synopsis">${video.synopsis}</div>
+                </div>
+                <div class="video-info">
+                    <h3 class="video-title">${video.title}</h3>
+                    <a href="${video.url}" class="watch-button" target="_blank">Watch Now</a>
+                </div>
+            `;
+            videoGallery.appendChild(videoCard);
         }
+    });
+
+    // Show the no results message if no video was found
+    if (!foundVideo) {
+        noResultsMessage.style.display = 'block';
+    }
+}
 
         // Initial display of all videos
         displayVideos();
