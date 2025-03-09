@@ -13,17 +13,17 @@
         }
 
         body {
-            background-color: #1a1a1a;
+            background-color: #000000;
             color: white;
             font-family: 'Inter', sans-serif;
-            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://assets.nflxext.com/ffe/siteui/vlv3/c31c3123-3df7-4359-8b8c-475bd2d9925d/15feb590-4e73-4ef4-9b63-5f566a553946/US-en-20231225-popsignuptwoweeks-perspective_alpha_website_large.jpg');
+            background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://i.ibb.co.com/5g1RWzpD/Screenshot-348.png');
             background-size: cover;
             background-position: center;
             height: 100vh;
         }
 
         .navbar {
-            background-color: rgba(0, 0, 0, 0.5);
+            background-color: rgba(26, 26, 26, 0.5);
             display: flex;
             align-items: center;
             justify-content: space-between;
@@ -124,6 +124,29 @@
             font-size: 0.9rem;
         }
     </style>
+    <script type="module">
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+        import { getAuth, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js";
+
+        const firebaseConfig = {
+            apiKey: "AIzaSyAOpH4643BnyWTk51an8Mm0p-I5q_hoYKE",
+            authDomain: "superflix-f74d4.firebaseapp.com",
+            databaseURL: "https://superflix-f74d4-default-rtdb.asia-southeast1.firebasedatabase.app",
+            projectId: "superflix-f74d4",
+            storageBucket: "superflix-f74d4.firebasestorage.app",
+            messagingSenderId: "1061472401725",
+            appId: "1:1061472401725:web:bdaf82013f92f907a7ed54"
+        };
+
+        const app = initializeApp(firebaseConfig);
+        const auth = getAuth(app);
+
+        onAuthStateChanged(auth, user => {
+            if (user) {
+                window.location.href = 'dashboard.html';
+            }
+        });
+    </script>
 </head>
 <body>
     <div class="navbar">
@@ -144,8 +167,8 @@
                 <p>Watch as much as you want, whenever you want.</p>
             </div>
             <div class="feature">
-                <h3>Exclusive Content</h3>
-                <p>Enjoy original series and movies only on SuperFlix.</p>
+                <h3>Download your movies and shows</h3>
+                <p>Save your favorites easily and always have something to watch.</p>
             </div>
             <div class="feature">
                 <h3>Watch Anywhere</h3>
@@ -154,7 +177,7 @@
         </div>
     </div>
     <footer>
-        <p>&copy; 2023 SuperFlix. All rights reserved.</p>
+        <p>&copy; 2025 SuperFlix. All rights reserved.</p>
     </footer>
 </body>
 </html>
