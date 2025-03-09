@@ -188,7 +188,7 @@
         auth.onAuthStateChanged(user => {
             if (user) {
                 showMessage(`Welcome, ${user.email}`, 'success');
-                window.location.href = 'Untitled-1.html';
+                window.location.href = 'dashboard.html';
             }
         });
     
@@ -221,7 +221,7 @@
                 auth.signInWithEmailAndPassword(email, password)
                     .then(() => {
                         showMessage('Login successful!', 'success');
-                        window.location.href = 'Untitled-1.html'; // Change this to your desired URL
+                        window.location.href = 'dashboard.html'; // Change this to your desired URL
                     })
                     .catch(error => {
                         showMessage(getErrorMessage(error.code), 'error');
