@@ -104,12 +104,18 @@
             text-align: center;
             margin-top: 20px;
             font-size: 0.9rem;
+            color-scheme: #e50914
         }
 
         .alt -action a {
             color: #e50914;
             text-decoration: none;
         }
+
+        .loger{
+            color: #e50914;
+        }
+
     </style>
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
@@ -198,7 +204,7 @@
         </div>
         <button class="btn" onclick="signup()">Sign Up</button>
         <div class="alt-action">
-            <span>Already have an account? <a href="login.html">Login</a></span>
+            <span>Already have an account? <a id="loger" class="loger"  href="login.html">Login</a></span>
         </div>
     </div>
 </body>
