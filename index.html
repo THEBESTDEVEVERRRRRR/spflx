@@ -157,6 +157,14 @@
         .faq-item.active p {
             display: block; /* Show answer when active */
         }
+        footer a {
+            color: #757575;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        footer a:hover {
+            text-decoration: underline;
+        }
     </style>
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
@@ -217,6 +225,8 @@
             </div>
         </div>
     </div>
+    <br>
+    <br>
     <section id="faq" class="faq-section">
         <h2>Frequently Asked Questions</h2>
         <div class="faq-item">
@@ -238,6 +248,9 @@
       </section>
     <footer>
         <p>&copy; 2025 SuperFlix. All rights reserved.</p>
+        <br>
+        <a href="terms.html">Terms of Service</a>
+        <a href="privacy.html">Privacy Policy</a>
     </footer>
 </body>
 </html>
