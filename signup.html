@@ -6,6 +6,7 @@
     <title>Sign Up - SuperFlix</title>
     <link rel="icon" href="https://i.ibb.co.com/YB3Y2cqH/Superflix.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
     <style>
         * {
             box-sizing: border-box;
@@ -184,6 +185,15 @@
                     }
                 });
         };
+        function onTurnstileSuccess(token) {
+        // Enable the submit button when Turnstile is successfully completed
+        document.getElementById('signupButton').disabled = false;
+    }
+
+    // Disable the submit button until Turnstile is completed
+    document.addEventListener('DOMContentLoaded', function() {
+        document.getElementById('signupButton').disabled = true;
+    });
     </script>
 </head>
 <body>
@@ -202,7 +212,10 @@
             <label for="password">Password</label>
             <input type="password" id="password" class="form-control" required>
         </div>
-        <button class="btn" onclick="signup()">Sign Up</button>
+        <div class="mb-3 d-flex justify-content-center">
+            <div class="cf-turnstile" data-sitekey="0x4AAAAAABAwc2hUr6MEQ4FF" data-callback="onTurnstileSuccess"></div>
+        </div>
+        <button id="signupButton" class="btn" onclick="signup()" >Sign Up</button>
     </div>
 </body>
 </html>
