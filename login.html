@@ -125,6 +125,9 @@
                 text-decoration: underline;
             }
 
+            .cf-turnstile {
+                margin-bottom: 20px;
+            }
             /* Modal styles */
             .modal {
                 display: none;
@@ -193,6 +196,7 @@
                 background-color: #444444;
             }  
     </style>
+    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback" async defer></script>
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
         import { getAuth, signInWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js";
@@ -216,7 +220,16 @@
             }
         });
 
-        // Define the login function in the global scope
+        window.onloadTurnstileCallback = function () {
+    turnstile.render('#turnstile-container', {
+        sitekey: '0x4AAAAAABAwc2hUr6MEQ4FF',
+        callback: function(token) {
+            console.log(`Challenge Success ${token}`);
+        },
+    });
+};
+
+        // Modify the login function
         window.login = function() {
             const email = document.getElementById('email');
             const password = document.getElementById('password');
@@ -235,6 +248,15 @@
                 return;
             }
 
+            // Get the Turnstile token
+            const token = turnstile.getResponse();
+            if (!token) {
+                errorMessage.innerText = "Please complete the Turnstile challenge.";
+                errorMessage.style.display = 'block';
+                return;
+            }
+
+            // Proceed with login
             signInWithEmailAndPassword(auth, email.value, password.value)
                 .then(() => {
                     // Successful login
@@ -295,6 +317,7 @@
             <label for="password">Password</label>
             <input type="password" id="password" class="form-control" required>
         </div>
+        <div id="turnstile-container"></div>
         <button class="btn" onclick="login()" id="loginButton">Login</button>
         <div class="alt-action">
             <div class="forgot-password">
