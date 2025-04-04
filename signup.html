@@ -115,12 +115,7 @@
         .loger{
             color: #e50914;
         }
-
-        .cf-turnstile {
-            margin-bottom: 20px;
-        }
     </style>
-    <script src="https://challenges.cloudflare.com/turnstile/v0/api.js?onload=onloadTurnstileCallback" async defer></script>
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
         import { getAuth, createUserWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js";
@@ -134,14 +129,7 @@
             messagingSenderId: "1061472401725",
             appId: "1:1061472401725:web:bdaf82013f92f907a7ed54"
         };
-        window.onloadTurnstileCallback = function () {
-    turnstile.render('#turnstile-container', {
-        sitekey: '0x4AAAAAABAwc2hUr6MEQ4FF',
-        callback: function(token) {
-            console.log(`Challenge Success ${token}`);
-        },
-    });
-};
+
         const app = initializeApp(firebaseConfig);
         const auth = getAuth(app);
 
@@ -172,22 +160,7 @@
                 return;
             }
 
-            // Check if Turnstile is defined
-            if (typeof turnstile === 'undefined') {
-                errorMessage.innerText = "Turnstile is not loaded yet. Please try again in a moment.";
-                errorMessage.style.display = 'block';
-                return;
-            }
-
-            // Get the Turnstile token
-            const token = turnstile.getResponse();
-            if (!token) {
-                errorMessage.innerText = "Please complete the Turnstile challenge.";
-                errorMessage.style.display = 'block';
-                return;
-            }
-
-            // If Turnstile is successful, proceed with signup
+            // Proceed with signup
             createUserWithEmailAndPassword(auth, email.value, password.value)
                 .then(() => {
                     // Successful signup
@@ -229,8 +202,9 @@
             <label for="password">Password</label>
             <input type="password" id="password" class="form-control" required>
         </div>
-        <div id="turnstile-container"></div>
         <button id="signupButton" class="btn" onclick="signup()">Sign Up</button>
+        <div class="alt-action">
+        </div>
     </div>
 </body>
 </html>
