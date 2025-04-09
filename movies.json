@@ -1706,7 +1706,539 @@
 "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EfqChPQ32pVOnME-1YyBjoMB4Atg4VKVDQ_M3nsaQHDeoA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=MJ9UbN",
 "category": "movie",
 "synopsis": "A decorated but racist NYPD captain wages war against a young crime boss in Chinatown, aiming to disrupt youth gangs and the established criminal order."
-}
+},
+   {
+    "title": "1492 Conquest Of Paradise",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/3effmbI6BbGW9i0HzEDfVGuOsvz.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/ESpSbrQaxp9EsCYpNHobFO4BL3M06NI7N1t1jmxph5fymw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=crxm1s",
+    "category": "movie",
+    "synopsis": "Depicts Christopher Columbus's ambitious quest for funding and his voyages across the Atlantic, leading to his arrival in the Americas."
+  },
+  {
+    "title": "Alien Nation",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/2wEyQkFXX6ReyW44YQa1kLQYkCg.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EbGssgJWFbtAvXxpp5EfV7gB9R0i8fyYavw_77q9ibhpHQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8XsiH8",
+    "category": "movie",
+    "synopsis": "In a near-future LA where aliens have integrated into society, a human cop partners with an alien detective to solve crimes involving the 'Newcomers'."
+  },
+  {
+    "title": "Always",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/wh0WItAFrw3m66mDMlCCuXQwfMW.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EcBgaFEQRLJKq2jg5oI-_kIBF4bOVSH-pai5-GLjxh9ygQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jtQZQu",
+    "category": "movie",
+    "synopsis": "The spirit of a deceased aerial firefighter mentors a novice pilot while watching him fall for the girlfriend he left behind."
+  },
+  {
+    "title": "Apocalypse Now",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/gQB8Y5RCMkv2zwzFHbUJX3kAhvA.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EbZTgSwz-edEgUgL7T0yuIsBw2yLHBxNY45-JF4BnZmrVg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=B2WSTw",
+    "category": "movie",
+    "synopsis": "During the Vietnam War, a U.S. Army Captain is sent on a secret mission into Cambodia to assassinate a renegade Colonel who has set himself up as a god."
+  },
+  {
+    "title": "Backdraft",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/bymJtYNIdiAiBR1LRetaJXbfryc.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/ETeYux-g0tZFne3eDrIui7QB_1gXeTMg3AgS1VKozKLLOg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rHF7RI",
+    "category": "movie",
+    "synopsis": "Estranged firefighter brothers in Chicago investigate a series of deadly arson attacks linked by a sophisticated chemical accelerant."
+  },
+  {
+    "title": "Bad Influence",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/8s4TwiCCBVnikc140osRlhjFFS0.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/ERz68-c4m_5Fr87ERCJqiI0Bz5iVqxFlK-bX_L6zKVeh-A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QDpSrX",
+    "category": "movie",
+    "synopsis": "A timid man's life spirals out of control after he befriends a charismatic but dangerous stranger who encourages his darker impulses."
+  },
+  {
+    "title": "Barton Fink",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/oDkp5iClJ9WKJGtKHz8BydodHC3.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/ET3SX5_naFFItJ03e9DPI38BxoekI-tR42eZi2v4Rb4nlw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DfyIM1",
+    "category": "movie",
+    "synopsis": "A New York playwright moves to Hollywood in 1941, suffers writer's block, and encounters bizarre characters in a surreal hotel."
+  },
+  {
+    "title": "Batman",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/cij4dd21v2Rk2YtUQbV5kW69WB2.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/Ec7LsXZQuX5Fl9_jzjS-OaQBYtiZ85wFCmSt2djLPr-keA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Ph132g",
+    "category": "movie",
+    "synopsis": "Gotham City's Dark Knight battles his arch-nemesis, the psychopathic Joker, who aims to sow chaos and take control."
+  },
+  {
+    "title": "Beverly Hills Cop",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/eBJEvKkhQ0tUt1dBAcTEYW6kCle.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/ERXB1e_XrQ1JsJXWhOJTBBsBqnehb5V3MmHJzpmAfQr5cA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=o7h9zW",
+    "category": "movie",
+    "synopsis": "A street-smart Detroit cop goes to Beverly Hills to investigate his friend's murder, clashing with the local police culture."
+  },
+  {
+    "title": "Black Rain",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/funhGWt9ee3Uwb6Ar8SGCCvbJdV.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/ERs0t1kmBKhCvAXCURXgrSMB_DEeb5OdePHilW1d1-Imqg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fyG9GN",
+    "category": "movie",
+    "synopsis": "Two NYC cops escort a Yakuza member to Japan but lose him, forcing them to navigate Osaka's underworld with a local detective."
+  },
+  {
+    "title": "Boyz N The Hood",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/v4ox4aSCNT5vyLXl4Q71JiWwCXW.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EZ5ZsOZxrB5Jm3OPPTkOBBgBacY7lqbVVkTGUmuv1Bfwaw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=roYPsL",
+    "category": "movie",
+    "synopsis": "Follows the lives of three young men growing up in South Central Los Angeles amid rising gang violence and social challenges."
+  },
+  {
+    "title": "Bram Stokers Dracula",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/scFDS0U5uYAjcVTyjNc7GmcZw1q.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EbfLB3qI3odOrFIn4deFa38B71b5nW0wQpw8pVcr9HglaA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rO0PEa",
+    "category": "movie",
+    "synopsis": "Count Dracula moves from Transylvania to London in 1897, seeking a woman who resembles his lost love, while pursued by Van Helsing."
+  },
+  {
+    "title": "Broadcast News",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/kQNR1Lc0qAF5xuBySpDn481KVjb.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EVAhRkFElVJOiFiXjMLK6bABwzcIsNztqwd3o_xlVs2BTg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FfcPkN",
+    "category": "movie",
+    "synopsis": "A look inside a TV news network, focusing on the complex relationships between an intense producer, a brilliant reporter, and a charismatic anchorman."
+  },
+  {
+    "title": "Chaplin",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/Aeltt5tl02zrEj4GoMynHc94lWG.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EbOX2YSgtMNDvJPOo0_6VTYBK9wv7mTPARTkkyq-YHBV9Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0gZYtK",
+    "category": "movie",
+    "synopsis": "Biographical film chronicling the lengthy and controversial life of silent film icon Charlie Chaplin, from poverty to fame and exile."
+  },
+  {
+    "title": "City Slickers",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/9DVZpm9pQNB3M17cRo752zqUYhL.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/ESPPS9bg0GtFir6a8SxyfY8B2t6EKhnH0YkcH4a2qPzmQg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=v844ZT",
+    "category": "movie",
+    "synopsis": "Three friends facing midlife crises go on a cattle drive adventure, learning life lessons from a seasoned trail boss."
+  },
+  {
+    "title": "Colors",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/5KueYME8A449pxaKTJZp3cWKKSX.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/ETcA-YCv_YBEuWMDJLq_9qsBItABv00upGn8bwrq-LN3rg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QTNhPD",
+    "category": "movie",
+    "synopsis": "A veteran LAPD officer and his rookie partner clash over methods while patrolling gang-ridden East Los Angeles."
+  },
+  {
+    "title": "Communion",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/5WsMyE6wwY2QbM3fpAePOX3e7pZ.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EWDATys6oKtNkA8zHETHjlYBcYkTN7a-rpH1MDJSeGepJg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dxiBLq",
+    "category": "movie",
+    "synopsis": "Based on Whitley Strieber's account of his alleged encounters with extraterrestrial beings and his struggle to understand the experiences."
+  },
+  {
+    "title": "Dances With Wolves",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/AqhFSd5J3OPz24BGrWL7HK7brt.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/Ed6bfUsgZ3NNsj_n5qEUTXQBEV3j0dnpkbAo5cZG5B066g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yZ8OTq",
+    "category": "movie",
+    "synopsis": "A Civil War soldier stationed at a remote frontier post befriends wolves and the Lakota Sioux, embracing their culture."
+  },
+  {
+    "title": "Dead Poets Society",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/hmGAF5NDoYB6S39UONevjHCESOI.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EThiP2-KoKRLv6YH0eIHTDoBCZLs_N_hTsOo-b-C_-s6DQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ybNUEB",
+    "category": "movie",
+    "synopsis": "An inspirational English teacher encourages his students at a conservative prep school to 'seize the day' and embrace poetry and self-expression."
+  },
+  {
+    "title": "Defending Your Life",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/pkNIdL0fOENFBq3DdTb0M8FB26t.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EQl0rfaCushHppb7qJwLb-MBpFYyumV64rr45W-va4BQqA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XyUSkM",
+    "category": "movie",
+    "synopsis": "In the afterlife's Judgment City, a deceased man must defend his earthly choices in a trial to determine his cosmic fate."
+  },
+  {
+    "title": "Do The Right Thing",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/63rmSDPahrH7C1gEFYzRuIBAN9W.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EWLBnSuKSApNi0ziryQnu60BPPDl1cnQpr-Vn92of7b3Xg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2pyZRY",
+    "category": "movie",
+    "synopsis": "Racial tensions escalate between African-American residents and Italian-American pizzeria owners in a Brooklyn neighborhood on a sweltering summer day."
+  },
+  {
+    "title": "Down And Out In Beverly Hills",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/5bfbUsKcJD4HHFmlTcpHBI2wR2k.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/Ec-91K2MYR1Hhke_YNwhZssBuJa3XmXWg-fmX8QmdtVA1Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=XntHUd",
+    "category": "movie",
+    "synopsis": "A wealthy but dysfunctional couple's lives are disrupted when they take in a homeless man they saved from drowning in their pool."
+  },
+  {
+    "title": "Drugstore Cowboy",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/2bQXK39axyedUL6DE1pzdMYgAw1.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EZxoyuL6nE9Nmzm-qOpsrCYBG4R-OnXVgSmB9aQ4-Hm4aw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eEQRK1",
+    "category": "movie",
+    "synopsis": "Follows a crew of drug addicts in the 1970s Pacific Northwest who rob pharmacies to support their habits, led by a man who decides to get clean."
+  },
+  {
+    "title": "Enemy Mine",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/a3dr9L8VIjhEvivzQ2M12VQDere.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EclPz5D862pIgl9D2jROenIBVJU3zbBFfnR6mJ3uvOBBFw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=kye4gz",
+    "category": "movie",
+    "synopsis": "A human pilot and his reptilian alien enemy crash-land on a hostile planet and must overcome their hatred to survive together."
+  },
+  {
+    "title": "Ferris Buellers Day Off",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/9LTQNCvoLsKXP0LtaKAaYVtRaQL.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EfzofqKWRqNIhoCrVq3FTeUB0nCk9nQavnIOQQXDKeAbZQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=grrRnp",
+    "category": "movie",
+    "synopsis": "A charming high school slacker skips school for an adventurous day in Chicago with his friends, all while outwitting his principal."
+  },
+  {
+    "title": "Firefox",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/xP6VaKdFEriMzPXe3j5YyDF3ryS.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EUEXry_uY4RHmgvRvnGM3IABpe7eJrHRfbdZL-RuWgBUkA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pUsX3b",
+    "category": "movie",
+    "synopsis": "A US pilot is sent into the Soviet Union to steal a technologically advanced, mind-controlled fighter jet."
+  },
+  {
+    "title": "The Fisher King",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/hwIYw22HmAUMobV4zsX69MgfVUz.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/Ee7TyXiaiTZPoqwFTpQliXwBO9wjWJkmqNYkONGpwSISpw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pinuC0",
+    "category": "movie",
+    "synopsis": "A disgraced radio host tries to redeem himself by helping a delusional homeless man on a quest for the Holy Grail."
+  },
+  {
+    "title": "Flatliners",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/wda3j7p7YHXKpFIlSzoTCtP7myF.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EUEfH1DdQa9PtusFF7IfLQEBt5_8JYuuZLJdBaypsEbCCA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=QzT6EP",
+    "category": "movie",
+    "synopsis": "Medical students experiment with near-death experiences, stopping and restarting their hearts, only to be haunted by visions from their pasts."
+  },
+  {
+    "title": "Fried Green Tomatoes",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/g71l1vbJwyAAYk8zKCkIQQ58qcb.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/ESbie6Yyef9NkEJP88wDk1kBPDuJL4XaJy-qFhR1iWbABA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KisnRj",
+    "category": "movie",
+    "synopsis": "A housewife is inspired by an elderly woman's stories about two friends running a cafe in 1930s Alabama."
+  },
+  {
+    "title": "Goodfellas",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/aKuFiU82s5ISJpGZp7YkIr3kCUd.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/ERgw7YvPwnxMs9f8Fr3AnEwBfzJeW1OL4QFrS4CS9cPokw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=shoaqq",
+    "category": "movie",
+    "synopsis": "Chronicles the rise and fall of mob associate Henry Hill and his involvement with the Lucchese crime family over several decades."
+  },
+  {
+    "title": "Heathers",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/dGbVfM4WlM7uvIbyRehfPZUIgp2.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/ET7QunnZrbhOgvGWZEjIfGUBVswD7sSO-9on8Tr8bhFJBg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=p87nJE",
+    "category": "movie",
+    "synopsis": "A girl in a popular high school clique teams up with a sociopath to kill the cool kids, staging their deaths as suicides."
+  },
+  {
+    "title": "Internal Affairs",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/A4pH8DiNFEf2AgXkM4zk3ZpblV.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EZDN-k2boDxOqd_XIuMo2BIBEJeMHlw0US5MTk8PLftbeA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=K6iL3k",
+    "category": "movie",
+    "synopsis": "An Internal Affairs investigator targets a manipulative and corrupt LAPD officer who proves difficult to catch."
+  },
+  {
+    "title": "Jacobs Ladder",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/ufLcHIi1aXjjH8MediAMvnwDsVI.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/Ef7z4mPxAdVJufSw949Dag4Bv0tYui9GeHRWux79if_buA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=H93C0T",
+    "category": "movie",
+    "synopsis": "A Vietnam veteran experiences disturbing flashbacks and hallucinations as he tries to piece together his past and unravel a conspiracy."
+  },
+  {
+    "title": "JFK",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/r0VWVTYlqdRCK5ZoOdNnHdqM2gt.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EUnWj5NLzVtDrN2H0FtqGZsBIQua94bUfImywuBcxg6h6g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yKGg5N",
+    "category": "movie",
+    "synopsis": "New Orleans D.A. Jim Garrison investigates potential conspiracies behind President Kennedy's assassination, challenging the official narrative."
+  },
+  {
+    "title": "Kafka",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/rCm8DaHZCdlaCFsbATASBYkSarE.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EexfERM1e0VPuqM4W5e8lIcBTRrsJ8vFD1lYnNSZn-QbAg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sKflid",
+    "category": "movie",
+    "synopsis": "Kafka works during the day at an insurance company, where events lead him to discover a mysterious underground society with strange suppressive goals."
+  },
+  {
+    "title": "King Of New York",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/1MyH4MJAJZJbb6wDVeOc2bTECtK.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EWTjeIZGnjdMirFuPN0WErgBE0NpsQ468LhCvtCoJ5Iuyw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Vy8Aor",
+    "category": "movie",
+    "synopsis": "A ruthless drug lord released from prison aims to regain control of NYC's criminal underworld while funding a hospital."
+  },
+  {
+    "title": "Millennium",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/mFGCK7RnFnRXR6CweAhQw030Zv7.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EbhG-jHLlCpAkIYc6tGFfNIBopkONZ2NcO1mpkuIeEa6Gw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1i7OdQ",
+    "category": "movie",
+    "synopsis": "An air crash investigator discovers evidence pointing to time travelers from the future abducting people destined to die in disasters."
+  },
+  {
+    "title": "Millers Crossing",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/ab3pnsTKp3BgcAFy0FgWBFBg9FL.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EUvf-IeHyrFKst5JoEzfuiUBicRVqd86dgFEfq6jnVBLnA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=r0f9Gw",
+    "category": "movie",
+    "synopsis": "During Prohibition, a mob boss's advisor navigates complex loyalties and betrayals between warring Irish and Italian gangs."
+  },
+  {
+    "title": "My Own Private Idaho",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/uJY5RGgU1DMTpxFjJ4ccaUzJH2C.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EaKIO3n9yFpEnFpHC8Offe0B-CbYPV5R74c50mJO3faQbw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=68Buei",
+    "category": "movie",
+    "synopsis": "Two young street hustlers—one narcoleptic, one a rebellious mayor's son—journey through the Pacific Northwest and Italy."
+  },
+  {
+    "title": "Naked Lunch",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/u01kh5jKUWjhom76mguRqUgdvja.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/ESgL0kZsxCBHqkKSrvRP3_IBa2GnwiIJ9yvcNZZzSAh9LA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TQaS7a",
+    "category": "movie",
+    "synopsis": "An exterminator addicted to bug powder accidentally kills his wife and enters the surreal Interzone, encountering talking insects and conspiracies."
+  },
+  {
+    "title": "New Jack City",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/k9VjzXyGElRAxXyXgPvtRRSznyL.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EbRyXfgXow9MtztcNTbGQvABvisf1GT1GjtQEd0joZ2Z7g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tNreLi",
+    "category": "movie",
+    "synopsis": "The rise and fall of drug kingpin Nino Brown and his gang during the crack epidemic in 1980s Harlem."
+  },
+  {
+    "title": "Parenthood",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/e51tNNQBJpJi9xkyuj0QFhyBcz7.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/Ea8m-t3aEUVIkVE8NcARhv4BhyqazbSZYwnnH8m3pqahbA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FVILBK",
+    "category": "movie",
+    "synopsis": "Follows the lives of the multi-generational Buckman family, exploring the challenges and joys of raising children and family dynamics."
+  },
+  {
+    "title": "Planes Trains And Automobiles",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/3RSucVsX96Ste8WDJfZP1hbNGqQ.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EdwdsdRFTq5Pm7x6kHZOpCMBf0VDj86C7vYuN37W3ZgFQA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=yVNkCb",
+    "category": "movie",
+    "synopsis": "An uptight executive's journey home for Thanksgiving becomes a disaster when he's stuck traveling with an obnoxious salesman."
+  },
+  {
+    "title": "Platoon",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/m3mmFkPQKvPZq5exmh0bDuXlD9T.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EfYXrTWxmc9JvamuOy0k-PoBRCB-SaN9_figkoCB0R6d_Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=om2dmO",
+    "category": "movie",
+    "synopsis": "A young soldier in Vietnam faces a moral crisis as he's caught between two sergeants with conflicting views on war and humanity."
+  },
+  {
+    "title": "Predator",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/k3mW4qfJo6SKqe6laRyNGnbB9n5.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/ESzJV1W5cKZBl9rFYT5riHgBXGhoWwFQWpkasPpz8dncQg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=5m5BV8",
+    "category": "movie",
+    "synopsis": "A team of commandos on a rescue mission in Central America are hunted by a deadly, technologically advanced alien warrior."
+  },
+  {
+    "title": "Pump Up The Volume",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/s1SyKrARJG2R7FyS4zkNdaekLAW.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EX55OxGGKIdCnB-6pg27IuoBzc3m6RRyySWQbCJXZDYeeQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KVz9FM",
+    "category": "movie",
+    "synopsis": "A shy high school student runs a pirate radio station, becoming an anonymous voice for rebellion against school corruption."
+  },
+  {
+    "title": "Rain Man",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/iTNHwO896WKkaoPtpMMS74d8VNi.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EQfN40LCFihMvL8Hb5x7MFAB23ZOsMEDbaMikKFW3i2_lg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ty5pMr",
+    "category": "movie",
+    "synopsis": "A self-centered car dealer discovers his autistic older brother inherited their father's fortune and takes him on a life-changing cross-country road trip."
+  },
+  {
+    "title": "Raising Arizona",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/m5Zp4K4hKdPhsBl3E0p8I7QomlT.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/Ec5KMXugUz1KgAa5Y0k_ijwBS0D_R36rtVh0rc41S5DxAw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0ah5nM",
+    "category": "movie",
+    "synopsis": "An infertile couple (an ex-con and ex-cop) kidnaps one of a set of quintuplets, leading to chaotic and comedic consequences."
+  },
+  {
+    "title": "Red Dawn",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/a2GkHcioc2QEFJbQk1NTB85u3vD.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EUvhn1U2KKRHpk-sq68OpeABI2Yk_jbpmvr12a6BPH6V1A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PMXP0H",
+    "category": "movie",
+    "synopsis": "A group of Colorado high school students forms a guerrilla resistance group after the U.S. is invaded by Soviet and Cuban forces."
+  },
+  {
+    "title": "Road House",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/r2hGyhvNneAifk7UpwAYxrkeFO4.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EQPk2Tnuu-xBpy3hCDkP9xIBErKPJpk1qq9hus1wvrICIQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=lZKVKs",
+    "category": "movie",
+    "synopsis": "A top professional bouncer is hired to clean up a notoriously rough bar but clashes with the corrupt businessman controlling the town."
+  },
+  {
+    "title": "Robin Hood Prince Of Thieves",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/hbRnWUNJkKKVN5mkcuC5ooqjE4e.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EcL0guo5QilFkItzkZ_M9fgBAiCS2QIo6o4rdXFZ7TZjxQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tuggO8",
+    "category": "movie",
+    "synopsis": "After returning from the Crusades, Robin of Locksley leads a band of outlaws against the tyrannical Sheriff of Nottingham."
+  },
+  {
+    "title": "Rush",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/mYRGsAFhvPmH8umMhsO8EJmhLQX.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EQ0hsVakYnZFoYqnInUGIP0BKsexZthM6YuuprMOAvsovw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fhZLmd",
+    "category": "movie",
+    "synopsis": "Two undercover narcotics cops in the 1970s become addicted to drugs while trying to infiltrate the local drug scene."
+  },
+  {
+    "title": "Salvador",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/c5JgUmzN7syTFy9suwoHF3vhNsN.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EYl_LscUXOxPvqh2Jcu_bxoBrfEqCVQH1B2-1MHu7jFfpA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=iRFbYp",
+    "category": "movie",
+    "synopsis": "A cynical photojournalist covers the brutal civil war in El Salvador in the early 1980s, becoming deeply involved in the conflict."
+  },
+  {
+    "title": "Sex Lies And Videotape",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/pj1uKm07svgXZDHbYE8AzRfNHcu.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/ET4q7yw6UdZEpT4VZljgBGoB2WpJTaa71Zd1ZKE5YFI_sA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SXDuPn",
+    "category": "movie",
+    "synopsis": "The troubled relationships of a married couple and the wife's sister are disrupted by the arrival of a man who videotapes women talking about sex."
+  },
+  {
+    "title": "Spies Like Us",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/s0Sx8nd9Irq0aCPbsN78s0DYVlG.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/ERjJoipDC7xNoRMiB6_Gg-4BCgO0MtDQWFy8dz9QdklFdw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=IJk0ek",
+    "category": "movie",
+    "synopsis": "Two incompetent government workers are unwittingly used as decoys in a real spy mission, bumbling their way into Soviet territory."
+  },
+  {
+    "title": "Starman",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/cgDeFWkYi6e9FT5RiQPCbQ9HlXZ.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EREcpO5QS5dIrjTQW-JUy3EBTkOe03A3cI73oGehRaOWEw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Vk9nTC",
+    "category": "movie",
+    "synopsis": "An alien clones the body of a widow's deceased husband and asks her help to travel cross-country to meet his rescuers, pursued by the government."
+  },
+  {
+    "title": "State Of Grace",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/dNMeRLY3MeY2FFeh639plHai3F1.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EVEoTeQyJVNDjeQbAEhQs1YBPyrzXkbHg7R1KfXQ1uuGow?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wuc8dC",
+    "category": "movie",
+    "synopsis": "An undercover cop infiltrates the Irish mob in his old Hell's Kitchen neighborhood, testing his loyalty to his childhood friend and the law."
+  },
+  {
+    "title": "Tequila Sunrise",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/8LoG0GL5N5e7zvvXezwwGnUfRHL.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EUeluwu3NBRHh5e8F-Nw2y4BghZMtT6XKSKU3I6frdPvNQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=RNuM2h",
+    "category": "movie",
+    "synopsis": "A former drug dealer trying to go straight finds his friendship with a cop complicated when they both fall for the same woman."
+  },
+  {
+    "title": "The Addams Family",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/qFf8anju5f2epI0my8RdwwIXFIP.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EeRGjymeiiRAswuprT-iQiEBF9wjHHaHJ5wLnAmVfSEYTQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=cKCoPk",
+    "category": "movie",
+    "synopsis": "Con artists attempt to swindle the eccentric Addams family by introducing an imposter claiming to be the long-lost Uncle Fester."
+  },
+  {
+    "title": "The Breakfast Club",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/wM9ErA8UVdcce5P4oefQinN8VVV.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/Ecu3C5898WtJs8rNeQGzz0IB_JGdibrlqCvyNRjczutZ8Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bozVel",
+    "category": "movie",
+    "synopsis": "Five high school students from different social circles bond and reveal their vulnerabilities during Saturday detention."
+  },
+  {
+    "title": "The Doors",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/x1LM3dzGuG6xOz0aT2e71o11vhu.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/ESKA7ZJXKvNNsVGytGW7otAB9dnCDtr5tvailH05NfHXyg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3tBULP",
+    "category": "movie",
+    "synopsis": "Biopic charting the turbulent career of the 1960s rock band The Doors and its iconic, self-destructive lead singer, Jim Morrison."
+  },
+  {
+    "title": "The Fabulous Baker Boys",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/1nS8AxnoYE2Y1ANMpVKZnm8iLxP.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/ETmm6P9sTGBLmsZ0b6NVorwBBp5ICIvNEqnniCSqcQV4yg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FgKhY4",
+    "category": "movie",
+    "synopsis": "Two lounge pianist brothers hire a female singer to revive their act, leading to professional success and personal complications."
+  },
+  {
+    "title": "Grand Canyon",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/gpqLukoUXAXkyMZ0jPSuAbWf5Nx.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EWpI1aoYUg5JhhPu_17gbX0BiXdK6UC1V_iqN2AzuQAHRw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=8uFH0C",
+    "category": "movie",
+    "synopsis": "Interconnected stories of diverse Los Angeles residents navigating life's anxieties, random violence, and searching for meaning."
+  },
+  {
+    "title": "The Grifters",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/vAT8gYQh7177BMSFt1eFT1uOoA7.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EbA9-6ObEatGjEQa6F0PLEUBoI4CI7BUPhh05Klf02FKWA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3eXXcR",
+    "category": "movie",
+    "synopsis": "A small-time con man, his mob-employed mother, and his manipulative girlfriend engage in a dangerous triangle of deceit and betrayal."
+  },
+  {
+    "title": "The Killing Fields",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/cX6Bv7natnZwQjsV9bLL8mmWjkS.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EVQCjN0TCetHqm6D5zsEW68B5-QdL6gCn30HhWbijXLLew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TM5Xuh",
+    "category": "movie",
+    "synopsis": "True story of the friendship between an American journalist and his Cambodian interpreter during the brutal Khmer Rouge regime."
+  },
+  {
+    "title": "The Last Temptation Of Christ",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/7L4qwrC1mipZXJfU5oRgQWChLv1.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EYT2WzBareRHtf4pp2DOv5kBga59XX6E2iqtVsfpVbzL1g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bvc2e9",
+    "category": "movie",
+    "synopsis": "Depicts Jesus Christ grappling with human doubts, fears, and temptations, including the temptation of a normal life."
+  },
+  {
+    "title": "The Princess Bride",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/kTXxdNv44najTayFcrT487xWuDv.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EfZUr72J90ZBikR5N1n3UZsBC5IiuuQYCsHTRnwJ8fitnA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CDcXlG",
+    "category": "movie",
+    "synopsis": "A classic fairy tale adventure filled with sword fights, giants, romance, and humor, as a farmhand rescues his true love."
+  },
+  {
+    "title": "The Silence Of The Lambs",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/uS9m8OBk1A8eM9I042bx8XXpqAq.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EVXAJsc_LVpHlnNCP6nNRicBsaxfvX_TRtXtJrqKtxMabg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=z5uc53",
+    "category": "movie",
+    "synopsis": "An FBI trainee seeks help from the imprisoned, brilliant cannibal Dr. Hannibal Lecter to catch another serial killer."
+  },
+  {
+    "title": "Thelma And Louise",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/vbRAGLzbC75QfiKD1lKjmnQGuph.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EW6B1c_dEMlDijYBYlbu6qkB36v1_8fgxFiL3yJReMZ_rw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=gqJfYH",
+    "category": "movie",
+    "synopsis": "Two friends on a weekend trip become fugitives after a fatal encounter, embarking on a crime spree across the American Southwest."
+  },
+  {
+    "title": "They Live",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/ngnybFTuopfbfmmEeX9jjBQQmF6.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EflL4IhgMqBNsjn5x_4Q8ZIBLlrz9snPfnmnKrqnUSriBQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WQUF8a",
+    "category": "movie",
+    "synopsis": "A drifter discovers sunglasses that reveal aliens are controlling humanity through subliminal messages in media."
+  },
+  {
+    "title": "Total Recall",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/wVbeL6fkbTKSmNfalj4VoAUUqJv.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EWg-VrTCgX9GlpuLcgIbWc8B7d6ymoM6vLYWSxWAbZVTcA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0LMthF",
+    "category": "movie",
+    "synopsis": "A construction worker's implanted memories of a Mars vacation trigger his suppressed past as a secret agent, plunging him into a Martian conspiracy."
+  },
+  {
+    "title": "Until The End Of The World",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/sDpYWgYkBlrVnpySXQNsxVvDAAG.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EfYe6KFb-iVHtUXsLKbP2JIBgAWS62NnTYKQye8dPmfu2w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=SE6DwQ",
+    "category": "movie",
+    "synopsis": "Under threat of global catastrophe, a woman chases a mysterious man across continents, becoming involved with a device that records dreams."
+  },
+  {
+    "title": "Hamlet",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/ycM8gwwyOLXW4qxkcu6nhLlfgcA.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EbpUGCUnPipMqR-ZihzZzkMB4BO8l8lak3bCMNPfzJvfDw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pfxRLb",
+    "category": "movie",
+    "synopsis": "The Prince of Denmark seeks vengeance against his uncle who murdered his father and married his mother to seize the throne."
+  },
+  {
+    "title": "Prosperos Books",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/g2Wj7gaGO8gqwTwabfm1FzzdxbT.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EQXD2zDfOdZNqxCrOnf1nt4BPmIsLOK3vZEzKyTRwM6v0A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=dh9clS",
+    "category": "movie",
+    "synopsis": "A visually rich adaptation of Shakespeare's 'The Tempest', focusing on the exiled Duke Prospero using magic from his books."
+  },
+  {
+    "title": "Young Guns",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/stvh1A3mj8NYyczE7RvwdtDRCo2.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EZV4BDZ7nGlFn12sPHKQrbEBeWaLIYsQBoWirdwDjBpUdA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=TQUAWi",
+    "category": "movie",
+    "synopsis": "Dramatization of Billy the Kid and his 'Regulators' seeking revenge during the Lincoln County War in New Mexico."
+  },
+  {
+    "title": "Young Guns II",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/7kMjla98srGHlFzAEmoGRcr6GN1.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EdHc2LrqcxRLs0K63HFfPzYB1HrolqZn5espzTaJcfdgcw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=acELuS",
+    "category": "movie",
+    "synopsis": "Billy the Kid and his gang become fugitives, pursued across the Southwest by lawman Pat Garrett."
+  }
 
 
 ]
