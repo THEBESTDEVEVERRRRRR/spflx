@@ -92,21 +92,21 @@
 },
 {
     "title": "Batman Begins",
-    "thumbnail": "https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p35903_p_v8_ay.jpg",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/4MpN4kIEqUjW8OPtOQJXlTdHiJV.jpg",
     "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EXfmrgqrAUJAioSKCfxos4MBeE1rZOf4NqVROlMJZwqOWQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YiadDy",
     "category": "movie",
     "synopsis": "Haunted by his parents’ murder, Bruce Wayne trains with a shadowy league of assassins before rejecting their brutal justice, embracing his fears to become Gotham’s vigilante protector, Batman, and confront a city-corrupting plot orchestrated by the Scarecrow and his former mentor."
 },
 {
     "title": "The Dark Knight",
-    "thumbnail": "https://resizing.flixster.com/Wg25mLoPWxjcxXzNyaSF4VGgGE4=/ems.cHJkLWVtcy1hc3NldHMvbW92aWVzL2ZiNjZiNWFkLWVhNzEtNDRhMC1iNGIwLTFmY2FkNzllNTJlMi5qcGc=",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/qJ2tW6WMUDux911r6m7haRef0WH.jpg",
     "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/ETOkOnuAIJlEtSSENpVMwwkBl7zmAbNlmSPQdpSwrlk2VQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LSsp91",
     "category": "movie",
     "synopsis": "As Batman allies with Commissioner Gordon and DA Harvey Dent to dismantle Gotham’s criminal underworld, the anarchic Joker unleashes chaos, testing their morals and plunging the city into a psychological battle where heroism and villainy blur in a relentless, gritty showdown."
 },
 {
     "title": "The Dark Knight Rises",
-    "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_FMjpg_UX1000_.jpg",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/hr0L2aueqlP2BYUblTTjmtn0hw4.jpg",
     "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EVO3nrg6bUJCnsjMf2ufm2cB7pc9Kv5C9P8S_HrYXYN1Qw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tSvbnk",
     "category": "movie",
     "synopsis": "Eight years after retiring Batman, a broken Bruce Wayne resurfaces to face Bane, a masked revolutionary plotting to destroy Gotham, forcing him to overcome physical and emotional scars, rally allies, and sacrifice everything in a climactic battle for the city’s survival and soul."
@@ -2280,8 +2280,12 @@
     "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/ESPm8wwAjAhBsaqIhpjWTJ0By06JFgCJ3DsxTpiZcymjnQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Vfmwyr",
     "category": "movie",
     "synopsis": "A banker convicted of uxoricide forms a friendship over a quarter century with a hardened convict, while maintaining his innocence and trying to remain hopeful through simple compassion."
+  },
+  {
+    "title": "12 Angry Men",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/ow3wq89wM8qd5X7hWKxiRfsFf9C.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EZKyutlRQplMmT5qr9qD4ZcB2yLfcbq7Zb1tHwz1Gampdw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2WShlW",
+    "category": "movie",
+    "synopsis": "The jury in a New York City murder trial is frustrated by a single member whose skeptical caution forces them to more carefully consider the evidence before jumping to a hasty verdict."
   }
-
-
-
 ]
