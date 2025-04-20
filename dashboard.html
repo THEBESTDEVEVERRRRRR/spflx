@@ -119,13 +119,21 @@
             background: #2a2a2a;
             border-radius: 10px;
             overflow: hidden;
-            transition: transform 0.3s ease;
             cursor: pointer;
             position: relative;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            z-index: 1;
         }
     
         .video-card:hover {
-            transform: translateY(-5px);
+            transform: scale(1.1);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            z-index: 10; /* Ensures the hovered card appears above others */
+            transition-delay: 1s; /* Delay the hover effect by 1 second */
+        }
+    
+        .video-card:not(:hover) {
+            transition-delay: 0s; /* Reset immediately when not hovering */
         }
     
         .video-info {
@@ -170,15 +178,12 @@
             opacity: 0;
             transition: opacity 0.3s ease;
             height: 100%;
-            display: flex;
+            display: none;
             align-items: flex-end;
             justify-content: center;
             text-align: center;
         }
     
-        .video-card:hover .synopsis {
-            opacity: 1;
-        }
     
         /* Footer Styles */
         footer {
@@ -227,6 +232,171 @@
         }
         footer a:hover {
             text-decoration: underline;
+        }
+
+        .popup-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+        
+        .popup-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .popup-content {
+            background-color: #181818;
+            width: 90%;
+            max-width: 800px;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            position: relative;
+            animation: popupFadeIn 0.3s ease;
+        }
+        
+        @keyframes popupFadeIn {
+            from {
+                transform: scale(0.9);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+        
+        .popup-header {
+            position: relative;
+            height: 300px;
+            overflow: hidden;
+        }
+        
+        .popup-header img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        
+        .popup-header-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: linear-gradient(to top, #181818, transparent);
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 20px;
+        }
+        
+        .popup-title {
+            font-size: 2rem;
+            margin-bottom: 10px;
+            color: white;
+        }
+        
+        .popup-metadata {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        
+        .age-rating {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 2px 8px;
+            border-radius: 3px;
+            margin-right: 10px;
+            font-size: 0.9rem;
+        }
+        
+        .popup-body {
+            padding: 20px;
+            color: #ddd;
+        }
+        
+        .popup-info {
+            margin-bottom: 20px;
+        }
+        
+        .popup-info h3 {
+            color: #999;
+            font-size: 1rem;
+            margin-bottom: 5px;
+        }
+        
+        .popup-info p {
+            color: white;
+            font-size: 1.1rem;
+            line-height: 1.5;
+        }
+        
+        .popup-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .popup-watch-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background: #e50914;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            text-align: center;
+            text-decoration: none;
+            transition: background 0.3s ease;
+            font-weight: 600;
+        }
+        
+        .popup-watch-button:hover {
+            background: #b20710;
+        }
+        
+        .popup-close {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            width: 30px;
+            height: 30px;
+            background-color: rgba(0, 0, 0, 0.7);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+            z-index: 10;
+        }
+        
+        .popup-close:before, .popup-close:after {
+            content: '';
+            position: absolute;
+            width: 15px;
+            height: 2px;
+            background-color: white;
+        }
+        
+        .popup-close:before {
+            transform: rotate(45deg);
+        }
+        
+        .popup-close:after {
+            transform: rotate(-45deg);
         }
     </style>
 </head>
@@ -337,7 +507,7 @@
                         </div>
                         <div class="video-info">
                             <h3 class="video-title">${video.title}</h3>
-                            <a href="${video.url}" class="watch-button" target="_blank">Watch Now</a>
+                            <a href="#" class="watch-button" onclick="openPopup(${videos.indexOf(video)}); return false;">Watch Now</a>
                         </div>
                     `;
                     videoGallery.appendChild(videoCard);
@@ -371,7 +541,7 @@
                 </div>
                 <div class="video-info">
                     <h3 class="video-title">${video.title}</h3>
-                    <a href="${video.url}" class="watch-button" target="_blank">Watch Now</a>
+                     <a href="#" class="watch-button" onclick="openPopup(${videos.indexOf(video)}); return false;">Watch Now</a>
                 </div>
             `;
             videoGallery.appendChild(videoCard);
@@ -386,6 +556,76 @@
 
         // Initial display of all videos
         displayVideos();
+
+                // Popup functions
+                window.openPopup = function(videoIndex) {
+            const video = videos[videoIndex];
+            
+            // Set popup content
+            document.getElementById('popup-thumbnail').src = video.thumbnail;
+            document.getElementById('popup-title').textContent = video.title;
+            document.getElementById('popup-synopsis').textContent = video.synopsis || 'No synopsis available';
+            document.getElementById('popup-director').textContent = video.director || 'Unknown';
+            document.getElementById('popup-cast').textContent = video.cast || 'Cast information not available';
+            document.getElementById('popup-genre').textContent = video.genre || 'Genre not specified';
+            document.getElementById('popup-rating').textContent = video.ageRating || 'Not Rated';
+            document.getElementById('popup-year').textContent = video.year || 'Year not specified'; // Added line for yearumb
+            document.getElementById('popup-watch-link').href = video.url;
+            
+            // Show popup
+            document.getElementById('moviePopup').classList.add('active');
+            
+            // Prevent body scrolling
+            document.body.style.overflow = 'hidden';
+        }
+        
+        window.closePopup = function() {
+            document.getElementById('moviePopup').classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+        
+        // Close popup when clicking outside the content
+        document.getElementById('moviePopup').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closePopup();
+            }
+        });
     </script>
+        <div class="popup-overlay" id="moviePopup">
+            <div class="popup-content">
+                <div class="popup-close" onclick="closePopup()"></div>
+                <div class="popup-header">
+                    <img id="popup-thumbnail" src="" alt="Movie Thumbnail">
+                    <div class="popup-header-overlay">
+                        <h2 class="popup-title" id="popup-title"></h2>
+                        <div class="popup-metadata">
+                            <span class="age-rating" id="popup-rating"></span>
+                            <span id="popup-genre"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="popup-body">
+                    <div class="popup-info">
+                        <h3>Synopsis</h3>
+                        <p id="popup-synopsis"></p>
+                    </div>
+                    <div class="popup-info">
+                        <h3>Director</h3>
+                        <p id="popup-director"></p>
+                    </div>
+                    <div class="popup-info">
+                        <h3>Cast</h3>
+                        <p id="popup-cast"></p>
+                    </div>
+                    <div class="popup-info">
+                        <h3>Year of Release</h3>
+                        <p id="popup-year"></p>
+                    </div>
+                    <div class="popup-actions">
+                        <a href="#" id="popup-watch-link" class="popup-watch-button" target="_blank">Watch Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
 </body>
 </html>
