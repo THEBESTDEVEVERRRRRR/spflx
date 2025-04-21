@@ -6,6 +6,7 @@
     <title>Sign Up - SuperFlix</title>
     <link rel="icon" href="https://i.ibb.co.com/YB3Y2cqH/Superflix.png" type="image/png">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <style>
         * {
             box-sizing: border-box;
@@ -107,7 +108,7 @@
             color-scheme: #e50914
         }
 
-        .alt -action a {
+        .alt-action a {
             color: #e50914;
             text-decoration: none;
         }
@@ -115,10 +116,56 @@
         .loger{
             color: #e50914;
         }
+
+        .divider {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            margin: 20px 0;
+        }
+
+        .divider-line {
+            flex-grow: 1;
+            height: 1px;
+            background-color: #444;
+        }
+
+        .divider-text {
+            padding: 0 15px;
+            color: #aaa;
+            font-size: 0.9rem;
+        }
+
+        .google-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            padding: 12px;
+            background-color: white;
+            border: none;
+            border-radius: 5px;
+            color: #444;
+            font-size: 1rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            margin-top: 10px;
+        }
+
+        .google-btn:hover {
+            background-color: #f1f1f1;
+        }
+
+        .google-icon {
+            margin-right: 10px;
+            width: 20px;
+            height: 20px;
+        }
     </style>
     <script type="module">
         import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
-        import { getAuth, createUserWithEmailAndPassword, onAuthStateChanged } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js";
+        import { getAuth, createUserWithEmailAndPassword, onAuthStateChanged, GoogleAuthProvider, signInWithPopup } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js";
 
         const firebaseConfig = {
             apiKey: "AIzaSyAOpH4643BnyWTk51an8Mm0p-I5q_hoYKE",
@@ -132,6 +179,7 @@
 
         const app = initializeApp(firebaseConfig);
         const auth = getAuth(app);
+        const googleProvider = new GoogleAuthProvider();
 
         onAuthStateChanged(auth, user => {
             if (user) {
@@ -184,12 +232,56 @@
                     }
                 });
         };
+
+        window.signupWithGoogle = function() {
+            const errorMessage = document.getElementById('error-message');
+            errorMessage.style.display = 'none';
+
+            signInWithPopup(auth, googleProvider)
+                .then((result) => {
+                    // This gives you a Google Access Token
+                    const credential = GoogleAuthProvider.credentialFromResult(result);
+                    const token = credential.accessToken;
+                    
+                    // The signed-in user info
+                    const user = result.user;
+                    
+                    // Redirect to dashboard
+                    window.location.href = 'dashboard.html';
+                })
+                .catch((error) => {
+                    // Handle Errors here
+                    const errorCode = error.code;
+                    const errorMessage = error.message;
+                    
+                    // Display error message
+                    document.getElementById('error-message').textContent = errorMessage;
+                    document.getElementById('error-message').style.display = 'block';
+                    
+                    console.error("Google sign-in error:", errorCode, errorMessage);
+                });
+        };
+
+        // Make functions available globally
+        window.signupWithGoogle = signupWithGoogle;
     </script>
 </head>
 <body>
     <div class="signup-container">
         <h1>Create an Account</h1>
         <div class="error-message" id="error-message"></div>
+        
+        <button class="google-btn" onclick="signupWithGoogle()">
+            <i class="fab fa-google" style="margin-right: 10px;"></i>
+            Sign up with Google
+        </button>
+        
+        <div class="divider">
+            <div class="divider-line"></div>
+            <div class="divider-text">or</div>
+            <div class="divider-line"></div>
+        </div>
+        
         <div class="form-group">
             <label for="name">Full Name</label>
             <input type="text" id="name" class="form-control" required>
@@ -204,6 +296,7 @@
         </div>
         <button id="signupButton" class="btn" onclick="signup()">Sign Up</button>
         <div class="alt-action">
+            Already have an account? <a href="login.html" class="loger">Log In</a>
         </div>
     </div>
 </body>
