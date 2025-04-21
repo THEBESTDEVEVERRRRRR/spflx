@@ -4234,6 +4234,29 @@
       "genre": "Western, Adventure",
       "ageRating": "R",
       "year": "1966"
+    },
+    {
+      "title": "Fight Club",
+      "thumbnail": "https://www.themoviedb.org/t/p/w1280/pB8BM7pdSp6B6Ih7QZ4DrQ3PmJK.jpg",
+      "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EYUvInQ-Xz1DmF5ZsaSIF64BNMXXCfLBFRJeD1k8Hubd_Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ZstB8r",
+      "synopsis": "An insomniac office worker looking for a way to change his life crosses paths with a devil-may-care soap maker and they form an underground fight club that evolves into something much, much more.",
+      "category": "movie",
+      "director": "David Fincher",
+      "cast": "Brad Pitt, Edward Norton, Helena Bonham Carter, Meat Loaf",
+      "genre": "Drama, Thriller, Crime",
+      "ageRating": "R",
+      "year": "1999"
+    },
+    {
+      "title": "Inception",
+      "thumbnail": "https://www.themoviedb.org/t/p/w1280/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg",
+      "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EcRtqVeNVilInwlNKH-LDMUBtwuXF38S3XGjHe9huI12pw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=01IJzI",
+      "synopsis": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O., but his tragic past may doom the project.",
+      "category": "movie",
+      "director": "Christopher Nolan",
+      "cast": "Leonardo DiCaprio, Joseph Gordon-Levitt, Elliot Page, Tom Hardy",
+      "genre": "Science Fiction, Action, Thriller, Adventure",
+      "ageRating": "PG-13",
+      "year": "2010"
     }
-
  ]
