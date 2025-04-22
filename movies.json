@@ -4018,5 +4018,17 @@
       "genre": "Science Fiction, Action, Thriller, Adventure",
       "ageRating": "PG-13",
       "year": "2010"
+    },
+    {
+      "title": "The Matrix",
+      "thumbnail": "https://www.themoviedb.org/t/p/w1280/dXNAPwY7VrqMAo51EKhhCJfaGb5.jpg",
+      "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/ETLvwbMSSoNIt0Xc6CIX-KQBhYbFs_M2OrVR2z-V1n8S8w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=k7Fsh8",
+      "synopsis": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      "category": "movie",
+      "director": "The Wachowskis",
+      "cast": "Keanu Reeves, Laurence Fishburne, Carrie-Anne Moss, Hugo Weaving",
+      "genre": "Action, Sci-Fi",
+      "ageRating": "R",
+      "year": "1999"
     }
  ]
