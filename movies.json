@@ -4030,5 +4030,18 @@
       "genre": "Action, Sci-Fi",
       "ageRating": "R",
       "year": "1999"
+    },
+    {
+      "title": "Interstellar",
+      "thumbnail": "https://www.themoviedb.org/t/p/w1280/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
+      "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EV-vnPwx9SdAv9xQle4U1IcB4cjne9JI-LpzRwrjpoNBuA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Q9kOpD",
+      "synopsis": "Set in a dystopian future where Earth is suffering from catastrophic blight and famine, the film follows a group of astronauts who travel through a wormhole near Saturn in search of a new home for mankind.",
+      "category": "movie",
+      "director": "Christopher Nolan",
+      "cast": "Matthew McConaughey, Anne Hathaway, Jessica Chastain, Michael Caine",
+      "genre": "Science Fiction, Drama, Adventure",
+      "ageRating": "PG-13",
+      "year": "2014"
     }
+
  ]
