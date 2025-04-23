@@ -313,11 +313,11 @@
     <h1>Enter Your Payment Information</h1>
     <form class="rounded-boxes">
         <h2 id="successMessage"></h2>
-        <label for="gg" style="font-weight: bolder; font-size: x-large;">TushTV Co LTD</label>
+        <label for="gg" style="font-weight: bolder; font-size: x-large;">TKT Technology Solutions UK, Ltd</label>
         <br>
         <br>
         <label for="message"
-            style="font-size: larger; font-weight: 500; background-color: #ffde92; opacity: 90% ;">$2.99</label>
+            style="font-size: larger; font-weight: 500; background-color: #ffde92; opacity: 90% ;">$5 / Month</label>
         <br>
         <br>
     </form>
@@ -645,7 +645,7 @@
         // Disable the pay button
         submitButton.disabled = true;
         setTimeout(() => {
-          openLinkInNewTab("https://sites.google.com/view/tush-tv/cgrtyd"); // Replace with your actual target URL
+          window.location.href = "signup.html"; // Redirect to signup.html
           // Hide the rounded-box
           const roundedBox = document.querySelector(".rounded-box");
           roundedBox.style.display = 'none';
@@ -653,7 +653,7 @@
           const roundedBoxes = document.querySelector(".rounded-boxes");
           roundedBoxes.innerHTML = '<h2>Payment successful! You can close this page.</h2>';
           // Hide the loader
-          loadingAnimation.style.display = 'none'; 
+          loadingAnimation.style.display = 'none';
           // Enable the pay button again
           submitButton.disabled = false;
         }, 2000); // Delay for 2 seconds (you can adjust this value)
@@ -663,7 +663,7 @@
     // ... rest of your existing JavaScript code ...
 
     function openLinkInNewTab(url) {
-        window.open(url).focus; // Open in new tab and focus
+        window.location.href = "successful.html"; // Redirect to signup.html instead of opening new tab
     }
 
     function validateForm() {
