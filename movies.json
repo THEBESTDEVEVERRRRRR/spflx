@@ -4139,5 +4139,17 @@
       "ageRating": "Not Rated",
       "year": "1954"
     },
+    {
+      "title": "City of God",
+      "thumbnail": "https://www.themoviedb.org/t/p/w1280/k7eYdWvhYQyRQoU2TB2A2Xu2TfD.jpg",
+      "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EaXzzeq2XwxJj9mTm6N_bysBRhSy21Sl90wIF_q8a9AaCg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=himHeD",
+      "synopsis": "In the slums of Rio, two kids' paths diverge as one struggles to become a photographer and the other a kingpin.",
+      "category": "movie",
+      "director": "Fernando Meirelles, Kátia Lund",
+      "cast": "Alexandre Rodrigues, Leandro Firmino, Phellipe Haagensen, Douglas Silva",
+      "genre": "Crime, Drama",
+      "ageRating": "R",
+      "year": "2002"
+    }
     
  ]
