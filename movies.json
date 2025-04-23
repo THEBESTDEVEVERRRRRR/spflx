@@ -4126,5 +4126,18 @@
       "genre": "Drama, Family, Fantasy, Romance",
       "ageRating": "PG",
       "year": "1946"
-    }
+    },
+    {
+      "title": "Seven Samurai",
+      "thumbnail": "https://www.themoviedb.org/t/p/w1280/8OKmBV5BUFzmozIC3pPWKHy17kx.jpg",
+      "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/EWGvWANpEV1Fq3YWFIe2FOsBqlVGU4uh_SCXD_g8mh3_DQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BpDTAN",
+      "synopsis": "Farmers from a village exploited by bandits hire a veteran samurai for protection, and he gathers six other samurai to join him.",
+      "category": "movie",
+      "director": "Akira Kurosawa",
+      "cast": "Toshiro Mifune, Takashi Shimura, Keiko Tsushima, Isao Kimura",
+      "genre": "Action, Drama, Adventure",
+      "ageRating": "Not Rated",
+      "year": "1954"
+    },
+    
  ]
