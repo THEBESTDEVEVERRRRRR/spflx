@@ -4210,7 +4210,32 @@
       "genre": "Biography, Drama, Music, War",
       "ageRating": "R",
       "year": "2002"
+    },
+    {
+      "title": "Gladiator",
+      "thumbnail": "https://www.themoviedb.org/t/p/w1280/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg",
+      "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/Ecb2x8iPCcNNuAYRJVn2kOkBBdpVR3qx3gTgK_PXG6foqg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PSCDlX",
+      "synopsis": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+      "category": "movie",
+      "director": "Ridley Scott",
+      "cast": "Russell Crowe, Joaquin Phoenix, Connie Nielsen, Oliver Reed",
+      "genre": "Action, Adventure, Drama",
+      "ageRating": "R",
+      "year": "2000"
+    },
+    {
+      "title": "Parasite",
+      "thumbnail": "https://www.themoviedb.org/t/p/w1280/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg",
+      "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/jaybo_2fczv5_onmicrosoft_com/Efm8B3Z2O5JMmTeuvFgA-rcBeIFb9HGCLl5tRUu6gjPPPg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Nfnxxy",
+      "synopsis": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+      "category": "movie",
+      "director": "Bong Joon Ho",
+      "cast": "Song Kang-ho, Lee Sun-kyun, Cho Yeo-jeong, Choi Woo-shik",
+      "genre": "Drama, Thriller, Comedy",
+      "ageRating": "R",
+      "year": "2019"
     }
+
 
     
  ]
