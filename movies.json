@@ -4270,9 +4270,17 @@
       "genre": "Animation, Drama, War",
       "ageRating": "Not Rated",
       "year": "1988"
-    }
-
-
-
-    
+    },
+    {
+      "title": "Whiplash",
+      "thumbnail": "https://www.themoviedb.org/t/p/w1280/7fn624j5lj3xTme2SgiLCeuedmO.jpg",
+      "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/nestorw_2fczv5_onmicrosoft_com/EaT6F4v_wl9ItNfuP5mbDVoBNkBBrbOL_UVV_XXzHz2ysw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=mEBZxn",
+      "synopsis": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+      "category": "movie",
+      "director": "Damien Chazelle",
+      "cast": "Miles Teller, J.K. Simmons, Paul Reiser, Melissa Benoist",
+      "genre": "Drama, Music",
+      "ageRating": "R",
+      "year": "2014"
+    }  
  ]
