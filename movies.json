@@ -4294,5 +4294,17 @@
       "genre": "Action, Thriller, Crime",
       "ageRating": "R",
       "year": "1998"
+    },
+    {
+      "title": "The Prestige",
+      "thumbnail": "https://www.themoviedb.org/t/p/w1280/bdN3gXuIZYaJP7ftKK2sU0nPtEA.jpg",
+      "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/nestorw_2fczv5_onmicrosoft_com/EZhPJNBNgC5OnvokNcMLM6cBEGGfRtbVdy3tzgKx34MRIw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3R1qBf",
+      "synopsis": "Rival 19th-century magicians engage in a bitter battle for trade secrets after a tragic accident.",
+      "category": "movie",
+      "director": "Christopher Nolan",
+      "cast": "Hugh Jackman, Christian Bale, Michael Caine, Scarlett Johansson",
+      "genre": "Drama, Mystery, Sci-Fi, Thriller",
+      "ageRating": "PG-13",
+      "year": "2006"
     }
  ]
