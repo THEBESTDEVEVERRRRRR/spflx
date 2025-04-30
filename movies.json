@@ -4306,5 +4306,29 @@
       "genre": "Drama, Mystery, Sci-Fi, Thriller",
       "ageRating": "PG-13",
       "year": "2006"
+    },
+    {
+      "title": "The Usual Suspects",
+      "thumbnail": "https://www.themoviedb.org/t/p/w1280/rWbsxdwF9qQzpTPCLmDfVnVqTK1.jpg",
+      "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/nestorw_2fczv5_onmicrosoft_com/EQ1noYpEqT9FjnxSZb9LNgsBjURu0ubslnVwUZJOcfl-Dg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hGocbZ",
+      "synopsis": "A sole survivor tells the twisty events leading up to a horrific gun battle on a boat, which began when five criminals met at a seemingly random police lineup.",
+      "category": "movie",
+      "director": "Bryan Singer",
+      "cast": "Kevin Spacey, Gabriel Byrne, Chazz Palminteri, Stephen Baldwin",
+      "genre": "Crime, Drama, Mystery, Thriller",
+      "ageRating": "R",
+      "year": "1995"
+    },
+    {
+      "title": "Spider-Man: Across the Spider-Verse",
+      "thumbnail": "https://www.themoviedb.org/t/p/w1280/8Vt6mWEReuy4Of61Lnj5Xj704m8.jpg",
+      "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/nestorw_2fczv5_onmicrosoft_com/EfJ1rLrr87pFumlaOpkwZCEBKWlQ3MAmT3dIh7NAzBVAvQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=PPKpdK",
+      "synopsis": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence. But when the heroes clash on how to handle a new threat, Miles finds himself pitted against the other Spiders and must redefine what it means to be a hero.",
+      "category": "movie",
+      "director": "Joaquim Dos Santos, Kemp Powers, Justin K. Thompson",
+      "cast": "Shameik Moore, Hailee Steinfeld, Oscar Isaac, Jake Johnson",
+      "genre": "Animation, Action, Adventure",
+      "ageRating": "PG",
+      "year": "2023"
     }
  ]
