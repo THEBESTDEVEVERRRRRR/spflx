@@ -5230,5 +5230,41 @@
       "genre": "Drama, War",
       "ageRating": "R",
       "year": "1995"
+    },
+    {
+      "title": "Rear Window",
+      "thumbnail": "https://www.themoviedb.org/t/p/w1280/ILVF0eJxHMddjxeQhswFtpMtqx.jpg",
+      "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/nestorw_2fczv5_onmicrosoft_com/EVswTFXtqFZDiHGagt0cACYB4JuwP19GQrPAKmgtjbwThA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vY015K",
+      "synopsis": "A wheelchair-bound photographer spies on his neighbors from his apartment window and becomes convinced one of them has committed murder.",
+      "category": "movie",
+      "director": "Alfred Hitchcock",
+      "cast": "James Stewart, Grace Kelly, Wendell Corey, Thelma Ritter",
+      "genre": "Mystery, Thriller",
+      "ageRating": "PG",
+      "year": "1954"
+    },
+    {
+      "title": "Once Upon a Time in the West",
+      "thumbnail": "https://www.themoviedb.org/t/p/w1280/qbYgqOczabWNn2XKwgMtVrntD6P.jpg",
+      "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/nestorw_2fczv5_onmicrosoft_com/ESkhqU7SbI1Ahw2mvhM0ch0BZYxavEDsIh-j6M4GmbkgcQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KCXdvb",
+      "synopsis": "A mysterious stranger with a harmonica joins forces with a notorious desperado to protect a beautiful widow from a ruthless assassin working for the railroad.",
+      "category": "movie",
+      "director": "Sergio Leone",
+      "cast": "Henry Fonda, Charles Bronson, Claudia Cardinale, Jason Robards",
+      "genre": "Western, Drama",
+      "ageRating": "PG-13",
+      "year": "1968"
+    },
+    {
+      "title": "The Rock",
+      "thumbnail": "https://www.themoviedb.org/t/p/w1280/j5mxLNWjUlXUUk8weFBtnF4afIR.jpg",
+      "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/nestorw_2fczv5_onmicrosoft_com/EU4dCdCfscZOivFnmcZRT4QBDKLQQuL3_cS3vogNLt5sxQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=teVBbg",
+      "synopsis": "An ex-con and a chemist team up to stop a renegade general who has seized Alcatraz Island and threatens to release nerve gas on San Francisco.",
+      "category": "movie",
+      "director": "Michael Bay",
+      "cast": "Sean Connery, Nicolas Cage, Ed Harris, Michael Biehn",
+      "genre": "Action, Adventure, Thriller",
+      "ageRating": "R",
+      "year": "1996"
     }
    ]
