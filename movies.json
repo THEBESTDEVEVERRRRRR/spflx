@@ -5266,5 +5266,29 @@
       "genre": "Action, Adventure, Thriller",
       "ageRating": "R",
       "year": "1996"
+    },
+    {
+      "title": "Django Unchained",
+      "thumbnail": "https://www.themoviedb.org/t/p/w1280/7oWY8VDWW7thTzWh3OKYRkWUlD5.jpg",
+      "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/nestorw_2fczv5_onmicrosoft_com/EX_6MAo0D7JOiLwG44H_FbcBBiWEsq8QUW_Qrw1cbHfuug?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bQ88Ef",
+      "synopsis": "With the help of a German bounty hunter, a freed slave sets out to rescue his wife from a brutal plantation owner in Mississippi.",
+      "category": "movie",
+      "director": "Quentin Tarantino",
+      "cast": "Jamie Foxx, Christoph Waltz, Leonardo DiCaprio, Kerry Washington",
+      "genre": "Western, Drama",
+      "ageRating": "R",
+      "year": "2012"
+    },
+    {
+      "title": "Dune: Part Two",
+      "thumbnail": "https://www.themoviedb.org/t/p/w1280/6izwz7rsy95ARzTR3poZ8H6c5pp.jpg",
+      "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/nestorw_2fczv5_onmicrosoft_com/EXd8zRhUwpdBvZmeT4k_SDoBrIJbdgQwi-N8g1DuB-09dw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=oHMHy7",
+      "synopsis": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family, facing a choice between the love of his life and the fate of the universe.",
+      "category": "movie",
+      "director": "Denis Villeneuve",
+      "cast": "Timothée Chalamet, Zendaya, Rebecca Ferguson, Austin Butler",
+      "genre": "Science Fiction, Adventure, Action, Drama",
+      "ageRating": "PG-13",
+      "year": "2024"
     }
    ]
