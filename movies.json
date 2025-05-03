@@ -5290,5 +5290,17 @@
       "genre": "Science Fiction, Adventure, Action, Drama",
       "ageRating": "PG-13",
       "year": "2024"
+    },
+    {
+      "title": "WALL-E",
+      "thumbnail": "https://www.themoviedb.org/t/p/w1280/hbhFnRzzg6ZDmm8YAmxBnQpQIPh.jpg",
+      "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/nestorw_2fczv5_onmicrosoft_com/EfbzdkBetg1FsNnV2ITlcC0BhwznO1ff52-ibmjGTc3FtA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=djca2l",
+      "synopsis": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+      "category": "movie",
+      "director": "Andrew Stanton",
+      "cast": "Ben Burtt, Elissa Knight, Jeff Garlin, Fred Willard",
+      "genre": "Animation, Adventure, Family, Sci-Fi",
+      "ageRating": "G",
+      "year": "2008"
     }
    ]
