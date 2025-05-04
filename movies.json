@@ -5314,5 +5314,17 @@
       "genre": "Mystery, Thriller",
       "ageRating": "R",
       "year": "2000"
+    },
+    {
+      "title": "The Lives of Others",
+      "thumbnail": "https://www.themoviedb.org/t/p/w1280/cVUDMnskSc01rdbyH0tLATTJUdP.jpg",
+      "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/nestorw_2fczv5_onmicrosoft_com/EVaBj5P-dzJKrQbD20LgcL4Bsq1e-v1EojEUVG7gCqR92A?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2PNeUL",
+      "synopsis": "In 1984 East Berlin, an agent of the secret police, conducting surveillance on a writer and his lover, finds himself becoming increasingly absorbed by their lives.",
+      "category": "movie",
+      "director": "Florian Henckel von Donnersmarck",
+      "cast": "Ulrich Mühe, Martina Gedeck, Sebastian Koch, Ulrich Tukur",
+      "genre": "Drama, Mystery, Thriller",
+      "ageRating": "R",
+      "year": "2006"
     }
    ]
