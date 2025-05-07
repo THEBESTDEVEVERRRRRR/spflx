@@ -6238,5 +6238,17 @@
       "genre": "Comedy, Drama, Romance",
       "ageRating": "PG",
       "year": "1996"
+    },
+    {
+      "title": "Paths of Glory",
+      "thumbnail": "https://www.themoviedb.org/t/p/w1280/tJXwtzOSNUC8dxJfrdvkNtGrrgW.jpg",
+      "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/nestorw_2fczv5_onmicrosoft_com/EQXToQsKl6RNrtWR--SGuGwB7_k3P3-RIXy3WCxPejQ2eQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=f47B3h",
+      "synopsis": "After refusing to attack an enemy position, a French colonel attempts to defend his soldiers from charges of cowardice in a court-martial.",
+      "category": "movie",
+      "director": "Stanley Kubrick",
+      "cast": "Kirk Douglas, Ralph Meeker, Adolphe Menjou, George Macready",
+      "genre": "Drama, War",
+      "ageRating": "Not Rated",
+      "year": "1957"
     }
    ]
