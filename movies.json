@@ -6250,5 +6250,29 @@
       "genre": "Drama, War",
       "ageRating": "Not Rated",
       "year": "1957"
+    },
+    {
+      "title": "The Shining",
+      "thumbnail": "https://www.themoviedb.org/t/p/w1280/fFYAlrOudDJRYs8tvuHbUk0OGdL.jpg",
+      "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/nestorw_2fczv5_onmicrosoft_com/EavGjZ2dIOhGoPaGwcKxhHwB2i3AOf5PY0UGL0aIJHInNA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=eZQB3F",
+      "synopsis": "A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future.",
+      "category": "movie",
+      "director": "Stanley Kubrick",
+      "cast": "Jack Nicholson, Shelley Duvall, Danny Lloyd, Scatman Crothers",
+      "genre": "Drama, Horror",
+      "ageRating": "R",
+      "year": "1980"
+    },
+    {
+      "title": "South Park: Bigger, Longer & Uncut",
+      "thumbnail": "https://www.themoviedb.org/t/p/w1280/tS0PedvA2mFO9VCHYwQpaU1K36U.jpg",
+      "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/johannal_2fczv5_onmicrosoft_com/EUVI5V6y-dRLjrJRuhN4vyABXu2DUbKkK0zL51mMup98gg?e=CZzq0D",
+      "synopsis": "When the four boys see an R-rated movie featuring Canadians Terrance & Phillip, they are pronounced \"corrupted,\" and their parents pressure the United States to wage war against Canada.",
+      "category": "movie",
+      "director": "Trey Parker",
+      "cast": "Trey Parker, Matt Stone, Mary Kay Bergman, Isaac Hayes",
+      "genre": "Animation, Comedy, Fantasy, Musical",
+      "ageRating": "R",
+      "year": "1999"
     }
    ]
