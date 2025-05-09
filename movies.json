@@ -6274,5 +6274,17 @@
       "genre": "Animation, Comedy, Fantasy, Musical",
       "ageRating": "R",
       "year": "1999"
+    },
+    {
+      "title": "The Great Dictator",
+      "thumbnail": "https://www.themoviedb.org/t/p/w1280/upWlmiv9i2d9Rx5t1NCFUUOhJGO.jpg",
+      "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/nestorw_2fczv5_onmicrosoft_com/ETvpuicpgVVItyIX4G4d48MBcNVizGIiEEXOLSs5r2sqpQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=3N2luW",
+      "synopsis": "Dictator Adenoid Hynkel tries to expand his empire while a poor Jewish barber tries to avoid persecution from Hynkel's regime.",
+      "category": "movie",
+      "director": "Charlie Chaplin",
+      "cast": "Charlie Chaplin, Paulette Goddard, Jack Oakie, Reginald Gardiner",
+      "genre": "Comedy, Drama, War",
+      "ageRating": "G",
+      "year": "1940"
     }
    ]
