@@ -6358,6 +6358,30 @@
     "genre": "Action, Drama, Mystery, Thriller, Neo-noir",
     "ageRating": "R",
     "year": "2003"
+  },
+  {
+    "title": "Das Boot",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/u8FhQPncOAkwcei2OI9orPWhV6K.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/nestorw_2fczv5_onmicrosoft_com/ER7mB_BEytlIn7wSt-WxgwsBolMdlXFspE47O0Axl76U7g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=DElMOX",
+    "synopsis": "A German U-boat stalks the frigid waters of the North Atlantic as its young crew experience the sheer terror and claustrophobic life of a submariner in World War II.",
+    "category": "movie",
+    "director": "Wolfgang Petersen",
+    "cast": "Jürgen Prochnow, Herbert Grönemeyer, Klaus Wennemann, Hubertus Bengsch",
+    "genre": "Drama, War, Thriller, History",
+    "ageRating": "R",
+    "year": "1981"
+  },
+  {
+    "title": "American Beauty",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/wby9315QzVKdW9BonAefg8jGTTb.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/nestorw_2fczv5_onmicrosoft_com/EZrfO37mYltAnDAtpLU__P8Bk3GgOmuBaKsy8KNPPQYAOw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=zBVIH8",
+    "synopsis": "Lester Burnham, a depressed suburban father in a mid-life crisis, decides to turn his hectic life around after developing an infatuation with his daughter's attractive friend.",
+    "category": "movie",
+    "director": "Sam Mendes",
+    "cast": "Kevin Spacey, Annette Bening, Thora Birch, Wes Bentley",
+    "genre": "Drama, Comedy",
+    "ageRating": "R",
+    "year": "1999"
   }
 
    ]
