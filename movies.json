@@ -6454,6 +6454,18 @@
     "genre": "Drama, Samurai, Jidaigeki, Mystery",
     "ageRating": "Not Rated",
     "year": "1962"
+  },
+  {
+    "title": "Cinema Paradiso",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/gCI2AeMV4IHSewhJkzsur5MEp6R.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/pradeepg_2fczv5_onmicrosoft_com/EVEzvy-_VgVBnXfLyrzwnFQB8BMEnl6W9g_PRpSYlnV33w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=D5mGTA",
+    "synopsis": "A famous film director, Salvatore, returns to his Sicilian hometown for the funeral of Alfredo, the local cinema's former projectionist. He fondly reminisces about his childhood, his friendship with Alfredo, and his burgeoning love for cinema.",
+    "category": "movie",
+    "director": "Giuseppe Tornatore",
+    "cast": "Philippe Noiret, Salvatore Cascio, Marco Leonardi, Jacques Perrin",
+    "genre": "Drama, Romance, Comedy",
+    "ageRating": "PG",
+    "year": "1988"
   }
 
    ]
