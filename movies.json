@@ -6526,6 +6526,137 @@
     "genre": "Drama, Thriller",
     "ageRating": "R",
     "year": "2012"
+  },
+  {
+    "title": "Ikiru",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/dgNTS4EQDDVfkzJI5msKuHu2Ei3.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/pradeepg_2fczv5_onmicrosoft_com/EbxWR7RKUHVBin5w5RP-OhYBVHCpolM4MnbP1Upe6rkxsA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=kvhdGW",
+    "synopsis": "A dedicated, long-serving Tokyo bureaucrat, Kanji Watanabe, discovers he has terminal cancer and less than a year to live. He then embarks on a final quest to find meaning in his monotonous life and leave a lasting legacy.",
+    "category": "movie",
+    "director": "Akira Kurosawa",
+    "cast": "Takashi Shimura, Miki Odagiri, Nobuo Kaneko, Yūnosuke Itō",
+    "genre": "Drama",
+    "ageRating": "Not Rated",
+    "year": "1952"
+  },
+  {
+    "title": "Incendies",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/yH6DAQVgbyj72S66gN4WWVoTjuf.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/pradeepg_2fczv5_onmicrosoft_com/EdX6XNOWlUFIj84vBkBaHQoBDlHfZRWR74bKwEHitTy_AA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=CBVFPM",
+    "synopsis": "Upon their mother's death, twins Jeanne and Simon Marwan receive two envelopes. One is for the father they thought was dead, and the other for a brother they never knew existed. This revelation sends them on a journey to the Middle East to uncover their tangled family history and their mother's hidden past.",
+    "category": "movie",
+    "director": "Denis Villeneuve",
+    "cast": "Lubna Azabal, Mélissa Désormeaux-Poulin, Maxim Gaudette, Rémy Girard",
+    "genre": "Drama, Mystery, War, Thriller",
+    "ageRating": "R",
+    "year": "2010"
+  },
+  {
+    "title": "Double Indemnity",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/rVNYZZgfhwqVMMWlBmxOfWqnwCj.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/pradeepg_2fczv5_onmicrosoft_com/EVEUIQXOjWFMnx0ZwD9IW_4Brpyi8-p7O5mLOZa5GVY7pg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=f1WuXO",
+    "synopsis": "An insurance representative, Walter Neff, is seduced by the alluring Phyllis Dietrichson into a deadly scheme to murder her husband and collect on a double indemnity life insurance policy, all while trying to evade the sharp suspicions of his colleague, claims investigator Barton Keyes.",
+    "category": "movie",
+    "director": "Billy Wilder",
+    "cast": "Fred MacMurray, Barbara Stanwyck, Edward G. Robinson, Jean Heather",
+    "genre": "Film Noir, Crime, Drama, Thriller",
+    "ageRating": "PG",
+    "year": "1944"
+  },
+  {
+    "title": "North by Northwest",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/kNOFPQrel9YFCVzI0DF8FnCEpCw.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/pradeepg_2fczv5_onmicrosoft_com/Ec9KgDrZN2VCuG_KnxYYUHoB7iu5vECbaLgeA-CNUHhqkA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=epwPnC",
+    "synopsis": "A New York City advertising executive, Roger Thornhill, is mistaken for a government agent by a group of foreign spies, forcing him on a cross-country run for his life while he tries to clear his name and unravel the conspiracy.",
+    "category": "movie",
+    "director": "Alfred Hitchcock",
+    "cast": "Cary Grant, Eva Marie Saint, James Mason, Jessie Royce Landis",
+    "genre": "Thriller, Mystery, Adventure, Romance, Spy",
+    "ageRating": "PG",
+    "year": "1959"
+  },
+  {
+    "title": "Up",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/mFvoEwSfLqbcWwFsDjQebn9bzFe.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/pradeepg_2fczv5_onmicrosoft_com/Ed9fmPYAdvtCg6F7BJ1_9LEBu4KqfpkjOxnnZgzA4X8rYw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fbXFfH",
+    "synopsis": "78-year-old widower Carl Fredricksen travels to Paradise Falls in his house equipped with thousands of balloons, inadvertently taking a young Wilderness Explorer named Russell as a stowaway.",
+    "category": "movie",
+    "director": "Pete Docter",
+    "cast": "Ed Asner, Jordan Nagai, Christopher Plummer, Bob Peterson",
+    "genre": "Animation, Adventure, Comedy, Family, Drama, Fantasy",
+    "ageRating": "PG",
+    "year": "2009"
+  },
+  {
+    "title": "Vertigo",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/15uOEfqBNTVtDUT7hGBVCka0rZz.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/pradeepg_2fczv5_onmicrosoft_com/EUdQmqw2GR9OijZLVJIZSYIB5HM8NnoVP_zPQxeYQlGhhA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=bbcugG",
+    "synopsis": "A retired San Francisco detective suffering from acrophobia and vertigo is hired to follow an old acquaintance's wife, who is behaving strangely. He becomes obsessed with her, leading to a complex web of mystery and deceit.",
+    "category": "movie",
+    "director": "Alfred Hitchcock",
+    "cast": "James Stewart, Kim Novak, Barbara Bel Geddes, Tom Helmore",
+    "genre": "Thriller, Mystery, Romance, Film Noir, Psychological Thriller",
+    "ageRating": "PG",
+    "year": "1958"
+  },
+  {
+    "title": "Amélie",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/oTKduWL2tpIKEmkAqF4mFEAWAsv.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/pradeepg_2fczv5_onmicrosoft_com/EfDIm-VAd_BPvPzqwwpBYlIBR-2TO2JnCjfrjZFCNtmLTw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4GNgeS",
+    "synopsis": "Amélie, an innocent and imaginative waitress in Montmartre, Paris, experiences a repressed childhood. She embarks on a whimsical quest to spread joy and orchestrate small miracles in the lives of those around her, and in doing so, discovers love and her own destiny.",
+    "category": "movie",
+    "director": "Jean-Pierre Jeunet",
+    "cast": "Audrey Tautou, Mathieu Kassovitz, Jamel Debbouze, Serge Merlin",
+    "genre": "Romantic Comedy, Fantasy, Drama",
+    "ageRating": "R",
+    "year": "2001"
+  },
+  {
+    "title": "A Separation",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/wQVvASmpm8jGhJBQU20OkoMcNzi.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/pradeepg_2fczv5_onmicrosoft_com/EVimyDlMKPpOm6chlA0m2_cBH1Nk0KrzHITUpADNbCDNoQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=wvMxMJ",
+    "synopsis": "An Iranian middle-class couple, Nader and Simin, separate over Simin's desire to leave the country for their daughter's future and Nader's insistence on staying to care for his father with Alzheimer's. Conflicts escalate when Nader hires a religious lower-class woman as a caregiver, leading to a web of accusations and moral dilemmas.",
+    "category": "movie",
+    "director": "Asghar Farhadi",
+    "cast": "Leila Hatami, Peyman Moaadi, Sareh Bayat, Shahab Hosseini",
+    "genre": "Drama, Thriller",
+    "ageRating": "PG-13",
+    "year": "2011"
+  },
+  {
+    "title": "Oppenheimer",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/8Gxv8gSFCU0XGDykEGv7zR1n2ua.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/pradeepg_2fczv5_onmicrosoft_com/EaZov5O8vNRDtscxGb4JYBQBSfSYayHUVuZexyZxGB4BPw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7LyB3U",
+    "synopsis": "A biographical drama chronicling the life of J. Robert Oppenheimer, the brilliant physicist who headed the Manhattan Project, leading to the creation of the atomic bomb during World War II, and his subsequent moral and political struggles.",
+    "category": "movie",
+    "director": "Christopher Nolan",
+    "cast": "Cillian Murphy, Emily Blunt, Matt Damon, Robert Downey Jr.",
+    "genre": "Biography, Drama, History, Thriller",
+    "ageRating": "R",
+    "year": "2023"
+  },
+  {
+    "title": "Metropolis",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/vZIJxGnjcswPCAa52jhbl01FQkV.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/pradeepg_2fczv5_onmicrosoft_com/EZZ6XxGY54VGhWUalpa7IxkB4eQ-YNWVY_fx8xT7KEJNpg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=C3l19J",
+    "synopsis": "In a futuristic dystopian city sharply divided between wealthy industrialists and oppressed workers, Freder, the son of the city's master, and Maria, a compassionate figure to the workers, strive to bridge the vast social chasm, leading to conflict and rebellion involving a robot duplicate.",
+    "category": "movie",
+    "director": "Fritz Lang",
+    "cast": "Brigitte Helm, Gustav Fröhlich, Alfred Abel, Rudolf Klein-Rogge",
+    "genre": "Science Fiction, Drama, Dystopian, Silent Film",
+    "ageRating": "Not Rated",
+    "year": "1927"
+  },
+  {
+    "title": "Bicycle Thieves",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/fzjXHQ7XgWsY7Lj9CsJqsKw6xYB.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/pradeepg_2fczv5_onmicrosoft_com/EXd0RHqh9hxKmohMoRsByd8BAlB_YWRpZi-DTXsI7J0VcA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7P7lXn",
+    "synopsis": "In post-World War II Rome, an unemployed man, Antonio Ricci, finally secures a job hanging posters, for which a bicycle is essential. When his newly redeemed bicycle is stolen on his first day, he and his young son, Bruno, embark on a desperate search through the city to recover it, facing the harsh realities of poverty and moral compromise.",
+    "category": "movie",
+    "director": "Vittorio De Sica",
+    "cast": "Lamberto Maggiorani, Enzo Staiola, Lianella Carell, Vittorio Antonucci",
+    "genre": "Drama, Italian Neorealism",
+    "ageRating": "Not Rated",
+    "year": "1948"
   }
-
-   ]
+]
