@@ -6502,6 +6502,30 @@
     "genre": "Drama, Psychological Thriller",
     "ageRating": "R",
     "year": "2000"
+  },
+  {
+    "title": "Toy Story 3",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/AbbXspMOwdvwWZgVN0nabZq03Ec.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/pradeepg_2fczv5_onmicrosoft_com/EehbMstDEO5KmASX8ux6vasBo0J7FIVRhSTzYqJoZeQAWg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=BizMCB",
+    "synopsis": "As Andy prepares to depart for college, his loyal toys, including Woody and Buzz Lightyear, are mistakenly delivered to a daycare center. Led by Woody, they must convince the others they weren't abandoned and plot a daring escape to return home.",
+    "category": "movie",
+    "director": "Lee Unkrich",
+    "cast": "Tom Hanks, Tim Allen, Joan Cusack, Ned Beatty",
+    "genre": "Animation, Adventure, Comedy, Family, Fantasy, Drama",
+    "ageRating": "G",
+    "year": "2010"
+  },
+  {
+    "title": "The Hunt",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/jkixsXzRh28q3PCqFoWcf7unghT.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/pradeepg_2fczv5_onmicrosoft_com/EVk3TC2cW3FNvE-xQWUKGWcBgZzpBT6UgRa2IivDYWk0yg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6vKnTP",
+    "synopsis": "In a small Danish village, Lucas, a divorced kindergarten teacher, becomes the target of mass hysteria after being wrongly accused of sexually abusing a child in his class. His life is brutally shattered by the spreading lie as he fights for his life and dignity.",
+    "category": "movie",
+    "director": "Thomas Vinterberg",
+    "cast": "Mads Mikkelsen, Thomas Bo Larsen, Annika Wedderkopp, Lasse Fogelstrøm",
+    "genre": "Drama, Thriller",
+    "ageRating": "R",
+    "year": "2012"
   }
 
    ]
