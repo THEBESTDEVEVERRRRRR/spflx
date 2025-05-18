@@ -6790,5 +6790,17 @@
     "genre": "Biography, Drama, History, War",
     "ageRating": "R",
     "year": "2004"
+  },
+  {
+    "title": "All About Eve",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/blBzZaatPWVuWpXEnPscMA4Xp6m.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/pradeepg_2fczv5_onmicrosoft_com/EQ9QxOb3c01Jp_zZQ4PiRTYBqcxagcrvWl7zhMIVhZkNbA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=hpVK3I",
+    "synopsis": "A seemingly timid but secretly ruthless ingénue insinuates herself into the lives of an aging Broadway star and her circle of theater friends.",
+    "category": "movie",
+    "director": "Joseph L. Mankiewicz",
+    "cast": "Bette Davis, Anne Baxter, George Sanders, Celeste Holm",
+    "genre": "Drama, Comedy",
+    "ageRating": "PG",
+    "year": "1950"
   }
 ]
