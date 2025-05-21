@@ -6982,5 +6982,65 @@
     "genre": "Drama, Crime, Black Comedy",
     "ageRating": "R",
     "year": "2017"
+  },
+    {
+    "title": "Raging Bull",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/1WV7WlTS8LI1L5NkCgjWT9GSW3O.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/ETnwgxMrPpBCgUYWkbJbTBkBWCj3P4j7B99R1UwvSiZLRg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=sUJ86l",
+    "synopsis": "The life of boxer Jake LaMotta, whose violence and temper that led him to the top in the ring destroyed his life outside of it.",
+    "category": "movie",
+    "director": "Martin Scorsese",
+    "cast": "Robert De Niro, Joe Pesci, Cathy Moriarty, Frank Vincent",
+    "genre": "Biography, Drama, Sport",
+    "ageRating": "R",
+    "year": "1980"
+  },
+  {
+    "title": "The Wild Robot",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/wTnV3PCVW5O92JMrFvvrRcV39RU.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/EQGawOymxJJNqnmGG8n_yqUBMZ6c1XA1VlHVViHcUjK6GQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=4AbMTn",
+    "synopsis": "The epic adventure follows the journey of a robot—ROZZUM unit 7134, or “Roz” for short—that is shipwrecked on an uninhabited island and must learn to adapt to its harsh surroundings, gradually building relationships with the animals on the island and becoming the adoptive parent of an orphaned gosling.",
+    "category": "movie",
+    "director": "Chris Sanders",
+    "cast": "Lupita Nyong'o, Pedro Pascal, Catherine O'Hara, Bill Nighy",
+    "genre": "Animation, Adventure, Family, Sci-Fi",
+    "ageRating": "PG",
+    "year": "2024"
+  },
+  {
+    "title": "Harry Potter and the Deathly Hallows – Part 2",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/c54HpQmuwXjHq2C9wmoACjxoom3.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/EbdE7DT5DX1EvHmhc7yMPecBQslIGtN_aphtIPhKYAaG6g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=So8zVq",
+    "synopsis": "Harry, Ron, and Hermione search for Voldemort's remaining Horcruxes in their effort to destroy the Dark Lord as the final battle rages on at Hogwarts.",
+    "category": "movie",
+    "director": "David Yates",
+    "cast": "Daniel Radcliffe, Emma Watson, Rupert Grint, Ralph Fiennes",
+    "genre": "Adventure, Fantasy, Mystery, Drama",
+    "ageRating": "PG-13",
+    "year": "2011"
+  },
+  {
+    "title": "Gran Torino",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/zUybYvxWdAJy5hhYovsXtHSWI1l.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/EY560QhvFbxAjBYD0Lcmjg4Bsb3QNCitNwO_YeJzynxAUw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=heJb80",
+    "synopsis": "Disgruntled Korean War veteran Walt Kowalski sets out to reform his Hmong teenage neighbor Thao after Thao tries to steal his prized 1972 Ford Gran Torino, forming an unlikely bond that changes both their lives.",
+    "category": "movie",
+    "director": "Clint Eastwood",
+    "cast": "Clint Eastwood, Bee Vang, Ahney Her, Christopher Carley",
+    "genre": "Drama",
+    "ageRating": "R",
+    "year": "2008"
+  },
+  {
+    "title": "Million Dollar Baby",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/jcfEqKdWF1zeyvECPqp3mkWLct2.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/EWpf0CseO5xIp-z1TiYaqaMBi_8ExpJi3lTbAKe4UnCnBQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=sb8mpS",
+    "synopsis": "A determined woman, Maggie Fitzgerald, works with a hardened boxing trainer, Frankie Dunn, to become a professional boxer, leading to a profound and tragic relationship.",
+    "category": "movie",
+    "director": "Clint Eastwood",
+    "cast": "Clint Eastwood, Hilary Swank, Morgan Freeman, Jay Baruchel",
+    "genre": "Drama, Sport",
+    "ageRating": "PG-13",
+    "year": "2004"
   }
 ]
