@@ -7042,5 +7042,101 @@
     "genre": "Drama, Sport",
     "ageRating": "PG-13",
     "year": "2004"
+  },
+    {
+    "title": "Ben-Hur",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/m4WQ1dBIrEIHZNCoAjdpxwSKWyH.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/EZ-nY0_x6HBLk8MQEzsvJ_gB2clg2KB3r7Njusyda0lVaA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=kiZ89Y",
+    "synopsis": "A Jewish prince, Judah Ben-Hur, is betrayed and sent into slavery by a Roman friend in 1st-century Jerusalem. He regains his freedom and comes back for revenge, culminating in a famous chariot race.",
+    "category": "movie",
+    "director": "William Wyler",
+    "cast": "Charlton Heston, Jack Hawkins, Haya Harareet, Stephen Boyd",
+    "genre": "Epic, Drama, History, Adventure",
+    "ageRating": "G",
+    "year": "1959"
+  },
+  {
+    "title": "Mad Max: Fury Road",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/hA2ple9q4qnwxp3hKVNhroipsir.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/EdFVI2ec0eNHhHJBS4mrXzQBLjR2kxfQYc8pu5Hcw4zUBQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Dw9bRT",
+    "synopsis": "In a post-apocalyptic wasteland, Max Rockatansky unwillingly joins Imperator Furiosa, a rebel warrior, in a quest to escape a tyrannical warlord and his cult, leading to a high-octane road battle for survival and freedom.",
+    "category": "movie",
+    "director": "George Miller",
+    "cast": "Tom Hardy, Charlize Theron, Nicholas Hoult, Hugh Keays-Byrne",
+    "genre": "Action, Adventure, Sci-Fi, Thriller",
+    "ageRating": "R",
+    "year": "2015"
+  },
+  {
+    "title": "My Neighbor Totoro",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/rtGDOeG9LzoerkDGZF9dnVeLppL.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/EdqFe4XpPNNOsb5JrAcwJT4BJd1S5M-WE919S4m5u_rwtg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=C7lUS0",
+    "synopsis": "Two young sisters, Satsuki and Mei, move with their father to a new house in the countryside to be closer to their hospitalized mother. They soon discover and befriend magical forest spirits, including the large, cuddly Totoro.",
+    "category": "movie",
+    "director": "Hayao Miyazaki",
+    "cast": "Dakota Fanning, Elle Fanning, Tim Daly, Frank Welker",
+    "genre": "Animation, Family, Fantasy, Adventure",
+    "ageRating": "G",
+    "year": "1988"
+  },
+  {
+    "title": "Barry Lyndon",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/dOJtBSyI30wWc08UmyEKLsu4Rfk.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/EUrFBYDmYwdMhlb79i0niZMBlpIdq3JQmAauuTdrx0t0Mw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YYlaDJ",
+    "synopsis": "An Irish rogue in the 18th century, Redmond Barry, charms, duels, and schemes his way up the social ladder, marrying a wealthy widow to assume her aristocratic position, only to face his eventual downfall.",
+    "category": "movie",
+    "director": "Stanley Kubrick",
+    "cast": "Ryan O'Neal, Marisa Berenson, Patrick Magee, Hardy Krüger",
+    "genre": "Drama, History, War",
+    "ageRating": "PG",
+    "year": "1975"
+  },
+  {
+    "title": "Spider-Man: No Way Home",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/EYgNeLvXSBVJnCkurEQ4VpoBDrwdKD-eC7sVU4xGw4pYkA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UTulXJ",
+    "synopsis": "With Spider-Man's identity now revealed, Peter Parker asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it truly means to be Spider-Man.",
+    "category": "movie",
+    "director": "Jon Watts",
+    "cast": "Tom Holland, Zendaya, Benedict Cumberbatch, Jacob Batalon",
+    "genre": "Action, Adventure, Fantasy, Sci-Fi, Superhero",
+    "ageRating": "PG-13",
+    "year": "2021"
+  },
+  {
+    "title": "Children of Heaven",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/jWqh1CJWAEcxckMRrf6ARhIEh0R.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/ESLfiH03OChIl8lFNYFmPEwBT0eaJlph--25bMmaDgJ1WQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=YOoO7n",
+    "synopsis": "After a boy loses his sister's pair of shoes, he goes on a series of adventures in order to find them. When he can't, he tries a new way to earn money to buy new shoes by participating in a race.",
+    "category": "movie",
+    "director": "Majid Majidi",
+    "cast": "Mohammad Amir Naji, Amir Farrokh Hashemian, Bahare Seddiqi, Nafise Jafar-Mohammadi",
+    "genre": "Drama, Family",
+    "ageRating": "PG",
+    "year": "1997"
+  },
+  {
+    "title": "12 Years a Slave",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/xdANQijuNrJaw1HA61rDccME4Tm.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/EXXi3Q1Jaq9FgBGesypia54BgCNH4bToY7DvZ_odIqKJTg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=V5sGNV",
+    "synopsis": "In the antebellum United States, Solomon Northup, a free Black man from upstate New York, is abducted and sold into slavery.",
+    "category": "movie",
+    "director": "Steve McQueen",
+    "cast": "Chiwetel Ejiofor, Michael Fassbender, Lupita Nyong'o, Benedict Cumberbatch",
+    "genre": "Biography, Drama, History",
+    "ageRating": "R",
+    "year": "2013"
+  },
+  {
+    "title": "The Grand Budapest Hotel",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/eWdyYQreja6JGCzqHWXpWHDrrPo.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/EQ7SezeebXNJrUdCONqeQbEBqmmcU9pcCBx5CkBpYO-cbw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=LhRa8z",
+    "synopsis": "The adventures of Gustave H, a legendary concierge at a famous hotel from the fictional Republic of Zubrowka between the first and second World Wars, and Zero Moustafa, the lobby boy who becomes his most trusted friend.",
+    "category": "movie",
+    "director": "Wes Anderson",
+    "cast": "Ralph Fiennes, F. Murray Abraham, Mathieu Amalric, Tony Revolori",
+    "genre": "Adventure, Comedy, Drama",
+    "ageRating": "R",
+    "year": "2014"
   }
 ]
