@@ -7138,5 +7138,101 @@
     "genre": "Adventure, Comedy, Drama",
     "ageRating": "R",
     "year": "2014"
+  },
+    {
+    "title": "Hacksaw Ridge",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/wuz8TjCIWR2EVVMuEfBnQ1vuGS3.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/EZw6Rf_GOfdJmBXHXDpoIzwB0v3UvvSsN4JWRP4Arsy3OQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=fJShzF",
+    "synopsis": "The true story of Pfc. Desmond T. Doss, a WWII American Army Medic who, during the Battle of Okinawa, saved 75 men without firing or carrying a gun due to his religious beliefs.",
+    "category": "movie",
+    "director": "Mel Gibson",
+    "cast": "Andrew Garfield, Sam Worthington, Luke Bracey, Teresa Palmer",
+    "genre": "Biography, Drama, History, War",
+    "ageRating": "R",
+    "year": "2016"
+  },
+  {
+    "title": "Gone Girl",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/ts996lKsxvjkO2yiYG0ht4qAicO.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/EeEuOt3TGKtNs0KpRNFBzucBSRzln4_axMdG3GoTCG_d2w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=qE4eCr",
+    "synopsis": "With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent.",
+    "category": "movie",
+    "director": "David Fincher",
+    "cast": "Ben Affleck, Rosamund Pike, Neil Patrick Harris, Tyler Perry",
+    "genre": "Drama, Mystery, Thriller",
+    "ageRating": "R",
+    "year": "2014"
+  },
+  {
+    "title": "Memories of Murder",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/jcgUjx1QcupGzjntTVlnQ15lHqy.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/ETvN6tZObeJJqkHDuNo4JwEB4g8PP7dLqVYN4mx3Pf34yw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=NYMGfE",
+    "synopsis": "In a small Korean province in 1986, two detectives struggle with the case of multiple young women being found raped and murdered by an unknown culprit.",
+    "category": "movie",
+    "director": "Bong Joon Ho",
+    "cast": "Song Kang-ho, Kim Sang-kyung, Kim Roe-ha, Park Hae-il",
+    "genre": "Crime, Drama, Mystery, Thriller",
+    "ageRating": "Not Rated",
+    "year": "2003"
+  },
+  {
+    "title": "Ratatouille",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/t3vaWRPSf6WjDSamIkKDs1iQWna.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/EZJrszR2KWNDu-VfAxL1Wl4B8NKBXUHoMrzhUe0tt6iesQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=6mOqFr",
+    "synopsis": "A rat who can cook makes an unusual alliance with a young kitchen worker at a famous Parisian restaurant.",
+    "category": "movie",
+    "director": "Brad Bird, Jan Pinkava",
+    "cast": "Patton Oswalt, Ian Holm, Lou Romano, Brad Garrett",
+    "genre": "Animation, Adventure, Comedy, Family, Fantasy",
+    "ageRating": "G",
+    "year": "2007"
+  },
+  {
+    "title": "Monsters, Inc.",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/qjlbN6aK1qgeg3SspFVovT2D1Me.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/Eebn5Y-vTMtOtjVPN-AnJTMBZkf9df86PF_jkJ73J6_wbA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Gmcccf",
+    "synopsis": "In order to power the city, monsters have to scare children so that they scream. However, the children are toxic to the monsters, and after a child gets through, two monsters realize things may not be what they think.",
+    "category": "movie",
+    "director": "Pete Docter, David Silverman, Lee Unkrich",
+    "cast": "John Goodman, Billy Crystal, Mary Gibbs, Steve Buscemi",
+    "genre": "Animation, Adventure, Comedy, Family, Fantasy",
+    "ageRating": "G",
+    "year": "2001"
+  },
+  {
+    "title": "How to Train Your Dragon",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/ygGmAO60t8GyqUo9xYeYxSZAR3b.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/EebEzmeU5B9Fi9q_sirILr0Berl7JNofQU-AVst0y4Y2zg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Q7jLK1",
+    "synopsis": "A hapless young Viking who aspires to hunt dragons becomes the unlikely friend of a young dragon himself, and learns there may be more to the creatures than he assumed.",
+    "category": "movie",
+    "director": "Dean DeBlois, Chris Sanders",
+    "cast": "Jay Baruchel, Gerard Butler, Craig Ferguson, America Ferrera",
+    "genre": "Animation, Action, Adventure, Family, Fantasy",
+    "ageRating": "PG",
+    "year": "2010"
+  },
+  {
+    "title": "Wild Tales",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/ucFsh8uU0Lsw7zouQFaRrs2ElOs.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/EdyWBnNY1zZKpyc5TjJq_hYBe6cRb7B13tgumtK3qhUsIQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=abfM5E",
+    "synopsis": "Six short stories that explore the extremities of human behavior involving people in distress, focusing on revenge, violence and the dark side of human nature.",
+    "category": "movie",
+    "director": "Damián Szifron",
+    "cast": "Ricardo Darín, Oscar Martínez, Leonardo Sbaraglia, Érica Rivas",
+    "genre": "Comedy, Drama, Thriller, Black Comedy",
+    "ageRating": "R",
+    "year": "2014"
+  },
+  {
+    "title": "Jaws",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/lxM6kqilAdpdhqUl2biYp5frUxE.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/EatTUDIoiCdCn3ZWCzn9FvUBlWOov3k7oJl31yO7iObNBg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=u9T5ck",
+    "synopsis": "When a killer shark unleashes chaos on a beach community off Cape Cod, it's up to a local sheriff, a marine biologist, and an old seafarer to hunt the creature down.",
+    "category": "movie",
+    "director": "Steven Spielberg",
+    "cast": "Roy Scheider, Robert Shaw, Richard Dreyfuss, Lorraine Gary",
+    "genre": "Adventure, Thriller, Horror",
+    "ageRating": "PG",
+    "year": "1975"
   }
 ]
