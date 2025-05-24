@@ -7234,5 +7234,29 @@
     "genre": "Adventure, Thriller, Horror",
     "ageRating": "PG",
     "year": "1975"
+  },
+    {
+    "title": "Ford v Ferrari",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/dR1Ju50iudrOh3YgfwkAU1g2HZe.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/EYoKxLJ67cdHiOpolnpYrgcBlqC8vJC77qazNK3nPZ9gxA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=R0tXkd",
+    "synopsis": "American car designer Carroll Shelby and driver Ken Miles battle corporate interference, the laws of physics, and their own personal demons to build a revolutionary race car for Ford and challenge Ferrari at the 24 Hours of Le Mans in 1966.",
+    "category": "movie",
+    "director": "James Mangold",
+    "cast": "Matt Damon, Christian Bale, Jon Bernthal, Caitriona Balfe",
+    "genre": "Action, Biography, Drama, Sport",
+    "ageRating": "PG-13",
+    "year": "2019"
+  },
+  {
+    "title": "The Wages of Fear",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/y5iBurPvCvPfGukQUxlJHjazeZV.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/EQfUePd0OAhJuAdo-S1BKCEB3wlnviKrpi4gQ4Bg6V0Uqg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=m8eXOS",
+    "synopsis": "In a desolate South American village, four desperate men are hired by an American oil company to drive two trucks laden with nitroglycerin over a treacherous mountain pass to extinguish an oil well fire.",
+    "category": "movie",
+    "director": "Henri-Georges Clouzot",
+    "cast": "Yves Montand, Charles Vanel, Peter van Eyck, Folco Lulli",
+    "genre": "Adventure, Drama, Thriller",
+    "ageRating": "Not Rated",
+    "year": "1953"
   }
 ]
