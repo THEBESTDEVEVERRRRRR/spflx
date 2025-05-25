@@ -421,6 +421,7 @@
     <div class="container">
         <h1>Welcome to SuperFlix</h1>
         <div id="welcome-message"></div>
+        <div id="search-results-title" style="text-align:center;color:#fff;font-size:1.2rem;margin-bottom:10px;"></div>
         <div class="video-grid" id="video-gallery"></div>
         <div id="no-results-message" style="display: none; text-align: center; color: white;">No videos found matching your search criteria. Maybe Check Our <a href="https://2fczv5-my.sharepoint.com/:f:/g/personal/johannal_2fczv5_onmicrosoft_com/EgWcfMOo349CoeiLWC4SrjUB4Hi4l2Zoi5g1nCzHVgX4Zw?e=7mhM5f"target="_blank">Unsorted List</a></div>
     </div>
@@ -493,8 +494,9 @@
         // Function to display videos
         window.displayVideos = function(category = null) {
             const videoGallery = document.getElementById('video-gallery');
+            const searchResultsTitle = document.getElementById('search-results-title');
             videoGallery.innerHTML = '';
-
+            searchResultsTitle.textContent = '';
             videos.forEach(video => {
                 if (!category || video.category === category) {
                     const videoCard = document.createElement('div');
@@ -520,16 +522,27 @@
         }
 
         window.searchVideos = function() {
-    const searchInput = document.querySelector('.search-input').value.toLowerCase();
+    const searchInputRaw = document.querySelector('.search-input').value.toLowerCase();
+    // Remove commas, colons, apostrophes and replace & with and in search input
+    const searchInput = searchInputRaw.replace(/[,:']/g, '').replace(/&/g, 'and');
     const videoGallery = document.getElementById('video-gallery');
     const noResultsMessage = document.getElementById('no-results-message');
+    const searchResultsTitle = document.getElementById('search-results-title');
     videoGallery.innerHTML = '';
     noResultsMessage.style.display = 'none'; // Hide the no results message initially
+
+    if (searchInputRaw.trim() !== '') {
+        searchResultsTitle.textContent = `Search results for "${searchInputRaw}"`;
+    } else {
+        searchResultsTitle.textContent = '';
+    }
 
     let foundVideo = false; // Flag to check if any video is found
 
     videos.forEach(video => {
-        if (video.title.toLowerCase().includes(searchInput)) {
+        // Normalize video title by removing commas, colons, apostrophes and replacing & with and
+        const normalizedTitle = (video.title || '').toLowerCase().replace(/[,:']/g, '').replace(/&/g, 'and');
+        if (normalizedTitle.includes(searchInput)) {
             foundVideo = true; // Set flag to true if a video is found
             const videoCard = document.createElement('div');
             videoCard.className = 'video-card';
@@ -554,28 +567,66 @@
     }
 }
 
-        // Initial display of all videos
-        displayVideos();
+        // Add this function to search by a specific field (director, cast, genre)
+        window.searchByField = function(field, value) {
+            const videoGallery = document.getElementById('video-gallery');
+            const noResultsMessage = document.getElementById('no-results-message');
+            const searchResultsTitle = document.getElementById('search-results-title');
+            videoGallery.innerHTML = '';
+            noResultsMessage.style.display = 'none';
+            searchResultsTitle.textContent = `Search results for "${value}"`;
+            let foundVideo = false;
+            videos.forEach(video => {
+                if ((video[field] || '').toLowerCase().includes(value.toLowerCase())) {
+                    foundVideo = true;
+                    const videoCard = document.createElement('div');
+                    videoCard.className = 'video-card';
+                    videoCard.setAttribute('data-category', video.category);
+                    videoCard.innerHTML = `
+                        <div class="thumbnail">
+                            <img src="${video.thumbnail}" alt="${video.title} Thumbnail">
+                            <div class="synopsis">${video.synopsis}</div>
+                        </div>
+                        <div class="video-info">
+                            <h3 class="video-title">${video.title}</h3>
+                            <a href="#" class="watch-button" onclick="openPopup(${videos.indexOf(video)}); return false;">Watch Now</a>
+                        </div>
+                    `;
+                    videoGallery.appendChild(videoCard);
+                }
+            });
+            if (!foundVideo) {
+                noResultsMessage.style.display = 'block';
+            }
+            closePopup();
+        }
 
-                // Popup functions
-                window.openPopup = function(videoIndex) {
+        // Update openPopup to make director, cast, and genre clickable
+        window.openPopup = function(videoIndex) {
             const video = videos[videoIndex];
-            
-            // Set popup content
             document.getElementById('popup-thumbnail').src = video.thumbnail;
             document.getElementById('popup-title').textContent = video.title;
             document.getElementById('popup-synopsis').textContent = video.synopsis || 'No synopsis available';
-            document.getElementById('popup-director').textContent = video.director || 'Unknown';
-            document.getElementById('popup-cast').textContent = video.cast || 'Cast information not available';
-            document.getElementById('popup-genre').textContent = video.genre || 'Genre not specified';
+            // Make director clickable
+            document.getElementById('popup-director').innerHTML = video.director ? `<a href="#" style="color:#fff;cursor:pointer;text-decoration:none;" onclick="searchByField('director', '${video.director.replace(/'/g, "\\'")}');return false;">${video.director}</a>` : 'Unknown';
+            // Make cast clickable (searches by first listed cast member)
+            if (video.cast) {
+                const castArr = video.cast.split(',').map(c => c.trim());
+                document.getElementById('popup-cast').innerHTML = castArr.map(castName => `<a href=\"#\" style=\"color:#fff;cursor:pointer;text-decoration:none;\" onclick=\"searchByField('cast', '${castName.replace(/'/g, "\\'")}');return false;\">${castName}</a>`).join(', ');
+            } else {
+                document.getElementById('popup-cast').textContent = 'Cast information not available';
+            }
+            // Make genre clickable (searches by first listed genre)
+            if (video.genre) {
+                const genreArr = video.genre.split(',').map(g => g.trim());
+                document.getElementById('popup-genre').innerHTML = genreArr.map(genreName => `<a href=\"#\" style=\"color:#fff;cursor:pointer;text-decoration:none;\" onclick=\"searchByField('genre', '${genreName.replace(/'/g, "\\'")}');return false;\">${genreName}</a>`).join(', ');
+            } else {
+                document.getElementById('popup-genre').textContent = 'Genre not specified';
+            }
             document.getElementById('popup-rating').textContent = video.ageRating || 'Not Rated';
-            document.getElementById('popup-year').textContent = video.year || 'Year not specified'; // Added line for yearumb
+            document.getElementById('popup-year').textContent = video.year || 'Year not specified';
             document.getElementById('popup-watch-link').href = video.url;
-            
-            // Show popup
             document.getElementById('moviePopup').classList.add('active');
-            
-            // Prevent body scrolling
             document.body.style.overflow = 'hidden';
         }
         
