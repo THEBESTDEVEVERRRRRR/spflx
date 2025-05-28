@@ -8134,5 +8134,17 @@
     "genre": "Drama, History, Thriller",
     "ageRating": "R",
     "year": "1999"
-  }
+  },
+  { 
+  "title": "Wild Strawberries", 
+  "thumbnail": "https://www.themoviedb.org/t/p/w1280/iyTD2QnySNMPUPE3IedZQipSWfz.jpg", 
+  "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/Ea80_yUuFdFClr28cn-V0iYBDGp-ywfQ-TLKL--Rc2oh_Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Q1zToZ", 
+  "synopsis": "Traveling to accept an honorary degree, Professor Isak Borg is forced to face his past, come to terms with his faults, and make peace with the inevitability of his approaching death through flashbacks and fantasies, dreams and nightmares.", 
+  "category": "movie", 
+  "director": "Ingmar Bergman", 
+  "cast": "Victor Sjöström, Bibi Andersson, Ingrid Thulin, Gunnar Björnstrand", 
+  "genre": "Drama", 
+  "ageRating": "Not Rated", 
+  "year": "1957" 
+ }
 ]
