@@ -8136,15 +8136,27 @@
     "year": "1999"
   },
   { 
-  "title": "Wild Strawberries", 
-  "thumbnail": "https://www.themoviedb.org/t/p/w1280/iyTD2QnySNMPUPE3IedZQipSWfz.jpg", 
-  "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/Ea80_yUuFdFClr28cn-V0iYBDGp-ywfQ-TLKL--Rc2oh_Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Q1zToZ", 
-  "synopsis": "Traveling to accept an honorary degree, Professor Isak Borg is forced to face his past, come to terms with his faults, and make peace with the inevitability of his approaching death through flashbacks and fantasies, dreams and nightmares.", 
-  "category": "movie", 
-  "director": "Ingmar Bergman", 
-  "cast": "Victor Sjöström, Bibi Andersson, Ingrid Thulin, Gunnar Björnstrand", 
-  "genre": "Drama", 
-  "ageRating": "Not Rated", 
-  "year": "1957" 
+    "title": "Wild Strawberries", 
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/iyTD2QnySNMPUPE3IedZQipSWfz.jpg", 
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/Ea80_yUuFdFClr28cn-V0iYBDGp-ywfQ-TLKL--Rc2oh_Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=Q1zToZ", 
+    "synopsis": "Traveling to accept an honorary degree, Professor Isak Borg is forced to face his past, come to terms with his faults, and make peace with the inevitability of his approaching death through flashbacks and fantasies, dreams and nightmares.", 
+    "category": "movie", 
+    "director": "Ingmar Bergman", 
+    "cast": "Victor Sjöström, Bibi Andersson, Ingrid Thulin, Gunnar Björnstrand", 
+    "genre": "Drama", 
+    "ageRating": "Not Rated", 
+    "year": "1957" 
+ },
+ {
+    "title": "Logan",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/2dBjfntdxZ1A1XjjyAAwhn922cL.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/EfQlgOhzygxNuiXY22T76c0BBjU4-lmDOzJ56m49_XntoQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=vSikh6",
+    "synopsis": "In the near future, a weary Logan cares for an ailing Professor X in a hideout on the Mexican border. But Logan's attempts to hide from the world and his legacy are upended when a young mutant arrives, being pursued by dark forces.",
+    "category": "movie",
+    "director": "James Mangold",
+    "cast": "Hugh Jackman, Patrick Stewart, Dafne Keen, Boyd Holbrook",
+    "genre": "Action, Drama, Sci-Fi",
+    "ageRating": "R",
+    "year": "2017"
  }
 ]
