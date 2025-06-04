@@ -9898,5 +9898,17 @@
     "genre": "Drama",
     "ageRating": "Not Rated",
     "year": "1953"
+  },
+  {
+    "title": "Pirates of the Caribbean: The Curse of the Black Pearl",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/z8onk7LV9Mmw6zKz4hT6pzzvmvl.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/EUCvx7JqZ9JPnnAnezY02j8B99ewu6ZaWLdQoBjrG1Q5kA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=pKKhDD",
+    "synopsis": "Blacksmith Will Turner teams up with eccentric pirate \"Captain\" Jack Sparrow to save his love, the governor's daughter, from Jack's former pirate allies, who are now undead.",
+    "category": "movie",
+    "director": "Gore Verbinski",
+    "cast": "Johnny Depp, Geoffrey Rush, Orlando Bloom, Keira Knightley",
+    "genre": "Action, Adventure, Fantasy",
+    "ageRating": "PG-13",
+    "year": "2003"
   }
 ]
