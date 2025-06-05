@@ -9934,5 +9934,17 @@
     "genre": "Drama",
     "ageRating": "R",
     "year": "2015"
+  },
+  {
+    "title": "La Haine",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/iH8saz6s0Z8SPPrKaMI2KrRzTED.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/isaiahl_2fczv5_onmicrosoft_com/EfLkyPHt1FRPp3vdN_eoRnMBAjcqe0Ok_Qqqft3Dbqd0fQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=fftB7I",
+    "synopsis": "A look at 24 hours in the lives of three young men in the French suburbs the day after a violent riot.",
+    "category": "movie",
+    "director": "Mathieu Kassovitz",
+    "cast": "Vincent Cassel, Hubert Koundé, Saïd Taghmaoui, Abdel Ahmed Ghili",
+    "genre": "Drama, Crime",
+    "ageRating": "Not Rated",
+    "year": "1995"
   }
 ]
