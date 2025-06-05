@@ -9946,5 +9946,17 @@
     "genre": "Drama, Crime",
     "ageRating": "Not Rated",
     "year": "1995"
+  },
+  {
+    "title": "Hotel Rwanda",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/p3pHw85UMZPegfMZBA6dZ06yarm.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/adelev_2fczv5_onmicrosoft_com/EYxIDA2WNspCgpCpDXDtXBoB5i5-RrW62d9EWCxOW7MEJA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=z5Vsq6",
+    "synopsis": "Paul Rusesabagina, a hotel manager, struggles to house and protect more than a thousand Tutsi refugees from the Hutu militia in Rwanda during the 1994 genocide.",
+    "category": "movie",
+    "director": "Terry George",
+    "cast": "Don Cheadle, Sophie Okonedo, Joaquin Phoenix, Nick Nolte",
+    "genre": "Drama, History, War",
+    "ageRating": "PG-13",
+    "year": "2004"
   }
 ]
