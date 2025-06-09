@@ -10006,5 +10006,29 @@
     "genre": "Animation, Action, Adventure, Family",
     "ageRating": "PG",
     "year": "2004"
+  },
+  {
+    "title": "The Wizard of Oz",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/pfAZFD7I2hxW9HCChTuAzsdE6UX.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/adelev_2fczv5_onmicrosoft_com/EbK8WlkmAXBGuRZadTUmeCUBrSaVkCiTGQGUf8ecPkHGPQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=nktFnK",
+    "synopsis": "Young Dorothy Gale and her dog Toto are swept away by a tornado from their Kansas farm to the magical Land of Oz, and embark on a quest with three new friends to see the Wizard, who can return her to her home and grant her friends their hearts' desires.",
+    "category": "movie",
+    "director": "Victor Fleming",
+    "cast": "Judy Garland, Frank Morgan, Ray Bolger, Jack Haley",
+    "genre": "Adventure, Family, Fantasy, Musical",
+    "ageRating": "PG",
+    "year": "1939"
+  },
+  {
+    "title": "Hachi: A Dog's Tale",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/lsy3aEsEfYIHdLRk4dontZ4s85h.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/adelev_2fczv5_onmicrosoft_com/EcwQESY-EcpJuVsSAWDBnrkBWVUC4wAomAanH1Z2Nje58Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=hktRnu",
+    "synopsis": "A college professor's bond with the abandoned dog he takes into his home exemplifies the true meaning of loyalty as the dog patiently waits for his master's return every day at the train station for years.",
+    "category": "movie",
+    "director": "Lasse Hallström",
+    "cast": "Richard Gere, Joan Allen, Sarah Roemer, Cary-Hiroyuki Tagawa",
+    "genre": "Drama, Family",
+    "ageRating": "G",
+    "year": "2009"
   }
 ]
