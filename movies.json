@@ -10030,5 +10030,17 @@
     "genre": "Drama, Family",
     "ageRating": "G",
     "year": "2009"
+  },
+  {
+    "title": "Stand by Me",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/vz0w9BSehcqjDcJOjRaCk7fgJe7.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/adelev_2fczv5_onmicrosoft_com/EXNrdJ7vFupJmAr2f1FaUW4Bh3zKvXiglQA2UZxJJaMRkg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=v4hOzJ",
+    "synopsis": "After learning that a stranger has been accidentally killed near their rural homes, four Oregon boys decide to go see the body. On the way, they encounter a mean junk man and a marsh full of leeches, and learn some truths about themselves.",
+    "category": "movie",
+    "director": "Rob Reiner",
+    "cast": "Wil Wheaton, River Phoenix, Corey Feldman, Jerry O'Connell",
+    "genre": "Adventure, Drama",
+    "ageRating": "R",
+    "year": "1986"
   }
 ]
