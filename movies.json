@@ -10054,5 +10054,29 @@
     "genre": "Animation, Action, Adventure, Sci-Fi",
     "ageRating": "PG",
     "year": "1999"
-  }
+  },
+  {
+    "title": "A Silent Voice: The Movie",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/tuFaWiqX0TXoWu7DGNcmX3UW7sT.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/adelev_2fczv5_onmicrosoft_com/Ea9Lu6rd1-xFswsbWLOeoVYBB8_cIQiAxSxcBYCx34L5hg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=EDcXLf",
+    "synopsis": "A young man is ostracized by his classmates after he bullies a deaf girl to the point where she transfers school. Years later, he sets off on a path for redemption and attempts to make amends.",
+    "category": "movie",
+    "director": "Naoko Yamada",
+    "cast": "Miyu Irino, Saori Hayami, Aoi Yūki, Kenshō Ono",
+    "genre": "Animation, Drama, Romance",
+    "ageRating": "PG-13",
+    "year": "2016"
+  },
+  {
+    "title": "I'm Still Here",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/gZnsMbhCvhzAQlKaVpeFRHYjGyb.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/adelev_2fczv5_onmicrosoft_com/ESJ717iGTkxOuJ5MDy1BqvsB3WY5wQzbqiRgZykX2pYl4Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Z0N0CU",
+    "synopsis": "During the Brazilian military dictatorship, a mother and activist, Eunice Paiva, copes with the forced disappearance of her husband, a dissident politician, and raises her five children.",
+    "category": "movie",
+    "director": "Walter Salles",
+    "cast": "Fernanda Torres, Selton Mello, Fernanda Montenegro, Antonio Saboia",
+    "genre": "Drama, History",
+    "ageRating": "PG-13",
+    "year": "2024"
+ }
 ]
