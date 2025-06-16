@@ -10042,5 +10042,17 @@
     "genre": "Adventure, Drama",
     "ageRating": "R",
     "year": "1986"
+  },
+  {
+    "title": "The Iron Giant",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/k1Cv5CHJvqGWK1xJDUJz8DojFEy.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/adelev_2fczv5_onmicrosoft_com/EQlLHJ059lJBnCwmRTj2xwQBLgbhyYCZdawD0mPr9yx6gA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=rRcSkA",
+    "synopsis": "A young boy befriends a giant alien robot that a paranoid government agent wants to destroy.",
+    "category": "movie",
+    "director": "Brad Bird",
+    "cast": "Eli Marienthal, Jennifer Aniston, Harry Connick Jr., Vin Diesel",
+    "genre": "Animation, Action, Adventure, Sci-Fi",
+    "ageRating": "PG",
+    "year": "1999"
   }
 ]
