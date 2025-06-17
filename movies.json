@@ -10102,6 +10102,17 @@
     "genre": "War, Drama, History",
     "ageRating": "Not Rated",
     "year": "1966"
- } 
-  
+ },
+ {
+    "title": "To Be or Not to Be",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/xKYSoYB2qMQoczQwHoTB9vjUhk0.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/adelev_2fczv5_onmicrosoft_com/EcuIxb3Yk-FGt68X5oXb7MMB3NuwhBj6lXqZigBrYxS1ew?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=laZu52",
+    "synopsis": "During the Nazi occupation of Warsaw, a troupe of actors in a theater becomes embroiled in a Polish soldier's mission to track down a German spy.",
+    "category": "movie",
+    "director": "Ernst Lubitsch",
+    "cast": "Carole Lombard, Jack Benny, Robert Stack, Felix Bressart",
+    "genre": "Comedy, War",
+    "ageRating": "Not Rated",
+    "year": "1942"
+ }  
 ]
