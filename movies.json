@@ -13702,5 +13702,17 @@
     "genre": "Drama",
     "ageRating": "PG",
     "year": "1978"
+  },
+  {
+    "title": "Warrior",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/iM8n4nZJPR2abpnyZ36FUgHiRjr.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/adelev_2fczv5_onmicrosoft_com/EW6Wi79Gl_pLsy24jtqy0VUBzq4HuAHnUtxra6sHlJTw3w?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=FLECrr",
+    "synopsis": "The youngest son of an alcoholic former boxer returns home, where he's trained by his father for a mixed martial arts tournament — a path that puts the fighter on a collision course with his estranged, older brother.",
+    "category": "movie",
+    "director": "Gavin O'Connor",
+    "cast": "Tom Hardy, Joel Edgerton, Nick Nolte, Jennifer Morrison",
+    "genre": "Action, Drama, Sport",
+    "ageRating": "PG-13",
+    "year": "2011"
   }
 ]
