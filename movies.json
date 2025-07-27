@@ -13714,5 +13714,41 @@
     "genre": "Action, Drama, Sport",
     "ageRating": "PG-13",
     "year": "2011"
+  },
+  {
+    "title": "Avatar",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/kyeqWdyUXW608qlYkRqosgbbJyK.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/adelev_2fczv5_onmicrosoft_com/ERpQGfBaun1LrU_I00ylS8IBUlgVIu4keo5W4cM3nhfZ7Q?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nIdGQN",
+    "synopsis": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home when his mind is linked to a genetically engineered alien body.",
+    "category": "movie",
+    "director": "James Cameron",
+    "cast": "Sam Worthington, Zoe Saldaña, Sigourney Weaver, Stephen Lang",
+    "genre": "Sci-Fi, Action, Adventure",
+    "ageRating": "PG-13",
+    "year": "2009"
+  },
+  {
+    "title": "Dunkirk",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/ebSnODDg9lbsMIaWg2uAbjn7TO5.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/adelev_2fczv5_onmicrosoft_com/EeBgq6NYo4VHsKYwZMhuGrQBNeIN7FZjxSRUGj0oc0X1pA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=D2edy9",
+    "synopsis": "Allied soldiers from Belgium, the British Empire, and France are surrounded by the German Army and evacuated during a fierce battle in World War II, told from the perspectives of the land, sea, and air.",
+    "category": "movie",
+    "director": "Christopher Nolan",
+    "cast": "Fionn Whitehead, Mark Rylance, Tom Hardy, Kenneth Branagh, Cillian Murphy",
+    "genre": "War, Action, Drama, History",
+    "ageRating": "PG-13",
+    "year": "2017"
+  },
+  {
+    "title": "Captain Phillips",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/gAH73mMU7rgGZrpYkFYgFgSNHs5.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/adelev_2fczv5_onmicrosoft_com/EchTqLVwrxhBl0Uug338jEEB4BrZVAqQ0IgzE5eZ-wvlrg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ZkUeGH",
+    "synopsis": "The true story of Captain Richard Phillips and the 2009 hijacking of the U.S. container ship Maersk Alabama by Somali pirates; the first American cargo ship to be hijacked in two hundred years.",
+    "category": "movie",
+    "director": "Paul Greengrass",
+    "cast": "Tom Hanks, Barkhad Abdi, Barkhad Abdirahman, Faysal Ahmed",
+    "genre": "Biography, Drama, Thriller",
+    "ageRating": "PG-13",
+    "year": "2013"
   }
 ]
