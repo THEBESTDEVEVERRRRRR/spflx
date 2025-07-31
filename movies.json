@@ -13786,5 +13786,41 @@
     "genre": "Animation, Adventure, Fantasy, Family",
     "ageRating": "PG",
     "year": "2016"
+  },
+  {
+    "title": "The Dirty Dozen",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/tFWWsuhp22zJ6OG6QepJIiPUfeF.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/adelev_2fczv5_onmicrosoft_com/EUhiBBj8-_5DuRrQJh4nfUQB_y39h9U2Bq-euOUe2Ek_OQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=9Fmfua",
+    "synopsis": "During World War II, a rebellious U.S. Army Major is assigned to lead a dozen convicted murderers on a near-suicidal mission behind enemy lines to assassinate German officers.",
+    "category": "movie",
+    "director": "Robert Aldrich",
+    "cast": "Lee Marvin, Charles Bronson, John Cassavetes, Telly Savalas, Ernest Borgnine",
+    "genre": "War, Action, Adventure",
+    "ageRating": "NR",
+    "year": "1967"
+  },
+  {
+    "title": "Harry Potter and the Half-Blood Prince",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/z7uo9zmQdQwU5ZJHFpv2Upl30i1.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/adelev_2fczv5_onmicrosoft_com/EfKk61PIahVNvYVw2iP_IcEBuWE523XEkCi2Z9IYq8DBRQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=jUXJLA",
+    "synopsis": "As Harry Potter begins his sixth year at Hogwarts, he discovers an old book marked as the property of the 'Half-Blood Prince' and begins to learn more about Lord Voldemort's dark past.",
+    "category": "movie",
+    "director": "David Yates",
+    "cast": "Daniel Radcliffe, Emma Watson, Rupert Grint, Michael Gambon, Alan Rickman",
+    "genre": "Fantasy, Adventure, Mystery, Family",
+    "ageRating": "PG",
+    "year": "2009"
+  },
+  {
+    "title": "Kick-Ass",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/iHMbrTHJwocsNvo5murCBw0CwTo.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/adelev_2fczv5_onmicrosoft_com/EQ_p2v7-9BZFuXGlNb6PaLUBf5qg89kHxfYtjtyrdofdLw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=JKC96Q",
+    "synopsis": "Dave Lizewski is an ordinary teenager who sets out to become a real-life superhero, calling himself 'Kick-Ass'. He soon gets tangled up with a fearless father-daughter crime-fighting duo and a local crime boss.",
+    "category": "movie",
+    "director": "Matthew Vaughn",
+    "cast": "Aaron Taylor-Johnson, Chloë Grace Moretz, Nicolas Cage, Mark Strong",
+    "genre": "Action, Comedy, Crime",
+    "ageRating": "R",
+    "year": "2010"
   }
 ]
