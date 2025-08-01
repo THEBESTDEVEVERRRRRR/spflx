@@ -13822,5 +13822,29 @@
     "genre": "Action, Comedy, Crime",
     "ageRating": "R",
     "year": "2010"
+  },
+  {
+    "title": "End of Watch",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/pDeVKQICkcdwwjHxGj0MeS14YJ6.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/adelev_2fczv5_onmicrosoft_com/EUekKHYNZiRGqW54kRg24OMBd5GV33HVH9RwTniSHx36jg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=2OQoh0",
+    "synopsis": "Two young Los Angeles police officers are marked for death after confiscating a small cache of money and firearms from the members of a notorious cartel during a routine traffic stop.",
+    "category": "movie",
+    "director": "David Ayer",
+    "cast": "Jake Gyllenhaal, Michael Peña, Anna Kendrick, Natalie Martinez",
+    "genre": "Crime, Drama, Thriller",
+    "ageRating": "R",
+    "year": "2012"
+  },
+  {
+    "title": "Rise of the Planet of the Apes",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/cjLsuP75UDlRdJVMXzXg3TJ4umX.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/adelev_2fczv5_onmicrosoft_com/Ed0uRwJ1fRRChOmv3g1i1_gBoH7vRCUuzQgFT29pPtG_kg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=xK1Nww",
+    "synopsis": "A substance designed to help the brain repair itself gives a chimpanzee advanced intelligence and sparks a war for supremacy between humans and apes.",
+    "category": "movie",
+    "director": "Rupert Wyatt",
+    "cast": "James Franco, Andy Serkis, Freida Pinto, John Lithgow",
+    "genre": "Action, Drama, Sci-Fi",
+    "ageRating": "PG-13",
+    "year": "2011"
   }
 ]
