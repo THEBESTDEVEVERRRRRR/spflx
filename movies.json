@@ -13858,5 +13858,17 @@
     "genre": "Action, Drama, Sci-Fi",
     "ageRating": "PG-13",
     "year": "2014"
+  },
+  {
+    "title": "Hotel Mumbai",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/v32SC4HFZtlDRWXMaR2V2dWqAXJ.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/adelev_2fczv5_onmicrosoft_com/ERGnFqtdLzxDomVyDzlMgHEBsHl0SeHkscyOmWiqU1AKgQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=t6piWK",
+    "synopsis": "The true story of the Taj Hotel staff who risked their lives to keep everyone safe as a group of terrorists lays siege to the hotel during the 2008 Mumbai attacks.",
+    "category": "movie",
+    "director": "Anthony Maras",
+    "cast": "Dev Patel, Armie Hammer, Nazanin Boniadi, Anupam Kher, Jason Isaacs",
+    "genre": "Drama, History, Thriller",
+    "ageRating": "R",
+    "year": "2018"
   }
 ]
