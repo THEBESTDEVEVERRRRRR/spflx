@@ -542,7 +542,16 @@
     videos.forEach(video => {
         // Normalize video title by removing commas, colons, apostrophes and replacing & with and
         const normalizedTitle = (video.title || '').toLowerCase().replace(/[,:']/g, '').replace(/&/g, 'and');
-        if (normalizedTitle.includes(searchInput)) {
+        // Normalize tags (assume comma-separated string or array)
+        let normalizedTags = '';
+        if (video.tags) {
+            if (Array.isArray(video.tags)) {
+                normalizedTags = video.tags.map(tag => tag.toLowerCase().replace(/[,:']/g, '').replace(/&/g, 'and')).join(' ');
+            } else {
+                normalizedTags = (video.tags || '').toLowerCase().replace(/[,:']/g, '').replace(/&/g, 'and');
+            }
+        }
+        if (normalizedTitle.includes(searchInput) || normalizedTags.includes(searchInput)) {
             foundVideo = true; // Set flag to true if a video is found
             const videoCard = document.createElement('div');
             videoCard.className = 'video-card';
