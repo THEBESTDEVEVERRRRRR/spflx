@@ -14032,5 +14032,29 @@
     "genre": "Action, Adventure, Drama, History",
     "ageRating": "R",
     "year": "2005"
+  },
+  {
+    "title": "Rango",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/A5MP1guV8pbruieG0tnpPIbaJtt.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/adelev_2fczv5_onmicrosoft_com/EY6rmY8BkxxCrYghEoKjtlMBbFNJzCRFyByHwbd4iXifVg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WDSfw6",
+    "synopsis": "A sheltered pet chameleon who has an identity crisis is accidentally stranded in a gritty, lawless Wild West town and is forced to become its new sheriff to solve its water crisis.",
+    "category": "movie",
+    "director": "Gore Verbinski",
+    "cast": "Johnny Depp, Isla Fisher, Abigail Breslin, Ned Beatty, Bill Nighy",
+    "genre": "Animation, Adventure, Comedy, Western",
+    "ageRating": "PG",
+    "year": "2011"
+  },
+  {
+    "title": "Troy",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/a07wLy4ONfpsjnBqMwhlWTJTcm.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/adelev_2fczv5_onmicrosoft_com/ERjSvmYrcrxBqjCg77Qi-SIB1h_h2i0SOZ7G_PAiRcwelA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ZLdd4z",
+    "synopsis": "An adaptation of Homer's epic, The Iliad, which follows the assault on Troy by the united Greek forces and chronicles the fates of the men involved in the decade-long Trojan War.",
+    "category": "movie",
+    "director": "Wolfgang Petersen",
+    "cast": "Brad Pitt, Eric Bana, Orlando Bloom, Diane Kruger, Peter O'Toole",
+    "genre": "Action, Drama, History",
+    "ageRating": "R",
+    "year": "2004"
   }
 ]
