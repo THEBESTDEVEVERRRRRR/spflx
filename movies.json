@@ -906,6 +906,18 @@
      "year": "2023"
    },
    {
+     "title": "Mission: Impossible - The Final Reckoning",
+     "thumbnail": "https://www.themoviedb.org/t/p/w1280/z53D72EAOxGRqdr7KXXWp9dJiDe.jpg",
+     "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/alexw_2fczv5_onmicrosoft_com/EfEbAOcOWvFKhAjngoOdsvYBRfINVAgz3FczpfwQqg-GQg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=S0iFeK",
+     "synopsis": "Ethan Hunt and his IMF team continue their mission to track down and destroy 'The Entity', a rogue artificial intelligence that threatens all of humanity.",
+     "category": "movie",
+     "director": "Christopher McQuarrie",
+     "cast": "Tom Cruise, Hayley Atwell, Ving Rhames, Simon Pegg, Esai Morales",
+     "genre": "Action, Adventure, Thriller, Spy",
+     "ageRating": "PG-13",
+     "year": "2025"
+   },
+   {
      "title": "Top Gear",
      "thumbnail": "https://www.themoviedb.org/t/p/w1280/gj7cHr413WgHOR0mNhtpPvS2UUe.jpg",
      "url": "https://2fczv5-my.sharepoint.com/:f:/g/personal/johannal_2fczv5_onmicrosoft_com/EgjbLmu_84pEm6QdM9Rs1LQBacchUG73ykN8PkdR4cZmEQ?e=l2vpt7",
@@ -14056,5 +14068,17 @@
     "genre": "Action, Drama, History",
     "ageRating": "R",
     "year": "2004"
+  },
+  {
+    "title": "The Italian Job",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/eSkjK4kctyrWpFhxl35GPvSs6tI.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/alexw_2fczv5_onmicrosoft_com/EeA8hMjrF5tKjEgnqKu6lKYBx2VQKAxHKQ8J2m6F-y4tiw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=6Z0gZ9",
+    "synopsis": "After being betrayed and left for dead in Italy, a master thief and his crew plan an elaborate heist against their former ally in Los Angeles, involving a massive traffic jam and three Mini Coopers.",
+    "category": "movie",
+    "director": "F. Gary Gray",
+    "cast": "Mark Wahlberg, Charlize Theron, Edward Norton, Seth Green, Jason Statham",
+    "genre": "Action, Crime, Thriller",
+    "ageRating": "PG-13",
+    "year": "2003"
   }
 ]
