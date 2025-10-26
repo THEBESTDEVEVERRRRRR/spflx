@@ -14104,5 +14104,41 @@
     "genre": "Action, Thriller",
     "ageRating": "R",
     "year": "2025"
+  },
+  {
+    "title": "Speed",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/82PkCE4R95KhHICUDF7G4Ly2z3l.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/alexw_2fczv5_onmicrosoft_com/ESQD72DfO31Onia_sUHjwesBYL-4mLyp16gRlKQaEz-sHg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=tvsODH",
+    "synopsis": "A young LAPD officer must prevent a bomb on a city bus from exploding by keeping its speed above 50 mph, with the help of a passenger who is forced to take the wheel.",
+    "category": "movie",
+    "director": "Jan de Bont",
+    "cast": "Keanu Reeves, Sandra Bullock, Dennis Hopper, Jeff Daniels, Joe Morton",
+    "genre": "Action, Thriller, Adventure",
+    "ageRating": "R",
+    "year": "1994"
+  },
+  {
+    "title": "True Lies",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/pweFTnzzTfGK68woSVkiTgjLzWm.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/alexw_2fczv5_onmicrosoft_com/Ebron3RpnLNLpRhEbQddpp8B42zvlwIB8h6wndV4_ZFBSA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=Vfiwz9",
+    "synopsis": "A top-secret government agent struggles to balance his life as a spy with his domestic duties, but is forced to reveal his double life when his wife becomes involved in his latest mission.",
+    "category": "movie",
+    "director": "James Cameron",
+    "cast": "Arnold Schwarzenegger, Jamie Lee Curtis, Tom Arnold, Bill Paxton, Art Malik",
+    "genre": "Action, Comedy, Thriller",
+    "ageRating": "R",
+    "year": "1994"
+  },
+  {
+    "title": "The Fugitive",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/b3rEtLKyOnF89mcK75GXDXdmOEf.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/alexw_2fczv5_onmicrosoft_com/EadAp1xVzL9BpQPiwCjqywQB2TdNOQWQD7bmdzsXEl2hSw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=nxhCVc",
+    "synopsis": "Dr. Richard Kimble, unjustly accused of murdering his wife, escapes from custody and races to find the real killer while being relentlessly pursued by a tenacious U.S. Marshal.",
+    "category":_ "movie",
+    "director": "Andrew Davis",
+    "cast": "Harrison Ford, Tommy Lee Jones, Sela Ward, Joe Pantoliano, Jeroen Krabbé",
+    "genre": "Action, Thriller, Drama, Crime",
+    "ageRating": "PG-13",
+    "year": "1993"
   }
 ]
