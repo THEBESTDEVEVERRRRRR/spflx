@@ -14140,5 +14140,17 @@
     "genre": "Action, Thriller, Drama, Crime",
     "ageRating": "PG-13",
     "year": "1993"
+  },
+  {
+    "title": "Last Action Hero",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/vkhEaWAv5j3qgrOGp3BgMeiYPKj.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/alexw_2fczv5_onmicrosoft_com/EXJxjKlmC7NIo_vST_nR8PAB29NRH_UttNq65oUz_P6BIA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=ajuSW0",
+    "synopsis": "A young movie fan is magically transported into the fictional world of his favorite action hero, Jack Slater, only for the film's villain to escape into the real world.",
+    "category": "movie",
+    "director": "John McTiernan",
+    "cast": "Arnold Schwarzenegger, Austin O'Brien, Charles Dance, F. Murray Abraham, Tom Noonan",
+    "genre": "Action, Comedy, Fantasy, Adventure",
+    "ageRating": "PG-13",
+    "year": "1993"
   }
 ]
