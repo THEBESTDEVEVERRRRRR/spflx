@@ -14152,5 +14152,29 @@
     "genre": "Action, Comedy, Fantasy, Adventure",
     "ageRating": "PG-13",
     "year": "1993"
+  },
+  {
+    "title": "The Long Kiss Goodnight",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/yREdXX5lMFUKhTvb0ofI7mzUHlR.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/alexw_2fczv5_onmicrosoft_com/EUb0oGlDfmtNlhzAbq3poaIBdzS-JiERMP5S8wUQuHvgMg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=UpaKda",
+    "synopsis": "A schoolteacher suffering from amnesia discovers she was previously a top-secret government assassin. She teams up with a private detective to uncover her past, which propels them into a deadly conspiracy.",
+    "category": "movie",
+    "director": "Renny Harlin",
+    "cast": "Geena Davis, Samuel L. Jackson, Patrick Malahide, Craig Bierko",
+    "genre": "Action, Thriller, Mystery",
+    "ageRating": "R",
+    "year": "1996"
+  },
+  {
+    "title": "Executive Decision",
+    "thumbnail": "https://www.themoviedb.org/t/p/w1280/ad2bXNH8M3BI0YYWQ8f31qWiuk0.jpg",
+    "url": "https://2fczv5-my.sharepoint.com/:v:/g/personal/alexw_2fczv5_onmicrosoft_com/EedJSwGLOSVMqUwa8961IgkBBYs4wqmfpY55dOvUKCshag?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7MgrfL",
+    "synopsis": "A U.S. Army intelligence consultant and a special forces team must conduct a mid-air boarding of a hijacked 747 airliner to stop terrorists who are threatening Washington D.C. with a deadly nerve agent.",
+    "category": "movie",
+    "director": "Stuart Baird",
+    "cast": "Kurt Russell, Halle Berry, Steven Seagal, John Leguizamo, David Suchet",
+    "genre": "Action, Thriller, Adventure",
+    "ageRating": "R",
+    "year": "1996"
   }
 ]
